@@ -8,16 +8,6 @@ dependencies {
   implementation fg.deobf("curse.maven:kleidersplayerrenderer-682065:4783309")
 }
 
-repositories {
-    maven {
-        url "https://cursemaven.com"
-    }
-}
-
-dependencies {
-    implementation fg.deobf("curse.maven:worldedit-225608:4586218")
-}
-
 minecraft {
 	runs {
 		client {
@@ -100,31 +90,6 @@ minecraft {
     }
   }
 }
-
-repositories {
-    maven {
-        url "https://cursemaven.com"
-    }
-}
-
-dependencies {
-    implementation fg.deobf("curse.maven:huge-structure-blocks-474114:4803547")
-}
-
-minecraft {
-    runs {
-
-        all {
-            def srgToMcpFile = project.tasks.createSrgToMcp.outputs.files[0].path
- 
-            property 'net.minecraftforge.gradle.GradleStart.srg.srg-mcp', srgToMcpFile
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', srgToMcpFile
-        }
-        
-        // ...
-    }
- }
 
 minecraft {
   runs {

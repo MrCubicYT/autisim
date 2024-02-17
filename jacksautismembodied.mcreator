@@ -2805,10 +2805,6 @@
         "children": []
       },
       {
-        "name": "Effects",
-        "children": []
-      },
-      {
         "name": "STYLEZ",
         "children": []
       }
@@ -2829,11 +2825,9 @@
     "dependants": [],
     "mcreatorDependencies": [
       "kleidersplayerrenderer",
-      "world_edit",
       "pehkui",
       "curios_api",
       "geckolib",
-      "huge_structure_blocks",
       "playeranimator"
     ],
     "currentGenerator": "forge-1.20.1",
