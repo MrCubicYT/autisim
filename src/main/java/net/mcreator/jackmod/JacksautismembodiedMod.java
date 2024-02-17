@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.jackmod.init.JacksautismembodiedModTabs;
 import net.mcreator.jackmod.init.JacksautismembodiedModSounds;
 import net.mcreator.jackmod.init.JacksautismembodiedModPotions;
+import net.mcreator.jackmod.init.JacksautismembodiedModPaintings;
 import net.mcreator.jackmod.init.JacksautismembodiedModMobEffects;
 import net.mcreator.jackmod.init.JacksautismembodiedModItems;
 import net.mcreator.jackmod.init.JacksautismembodiedModFeatures;
@@ -66,6 +67,7 @@ public class JacksautismembodiedMod {
 		JacksautismembodiedModFeatures.REGISTRY.register(bus);
 		JacksautismembodiedModMobEffects.REGISTRY.register(bus);
 		JacksautismembodiedModPotions.REGISTRY.register(bus);
+		JacksautismembodiedModPaintings.REGISTRY.register(bus);
 
 	}
 

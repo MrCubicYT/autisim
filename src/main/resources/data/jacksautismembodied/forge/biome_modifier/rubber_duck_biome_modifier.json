@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "jacksautismembodied:rubber_duck",
+    "weight": 20,
+    "minCount": 10,
+    "maxCount": 20
+  }
+}

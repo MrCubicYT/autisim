@@ -59,6 +59,7 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> ZFIGHTBLOCK = block(JacksautismembodiedModBlocks.ZFIGHTBLOCK);
 	public static final RegistryObject<Item> HEALTH_PICKUP = REGISTRY.register("health_pickup", () -> new HealthPickupItem());
 	public static final RegistryObject<Item> CHRISTMAS = REGISTRY.register("christmas", () -> new ChristmasItem());
+	public static final RegistryObject<Item> KABEEM_SPAWN_EGG = REGISTRY.register("kabeem_spawn_egg", () -> new ForgeSpawnEggItem(JacksautismembodiedModEntities.KABEEM, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SPRING_PAD = REGISTRY.register(JacksautismembodiedModBlocks.SPRING_PAD.getId().getPath(), () -> new SpringPadDisplayItem(JacksautismembodiedModBlocks.SPRING_PAD.get(), new Item.Properties()));
 	public static final RegistryObject<Item> STONE_PATH = block(JacksautismembodiedModBlocks.STONE_PATH);
 	public static final RegistryObject<Item> TILED_SANDSTONE = block(JacksautismembodiedModBlocks.TILED_SANDSTONE);
@@ -68,6 +69,7 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> IRON_KNIFE = REGISTRY.register("iron_knife", () -> new IronKnifeItem());
 	public static final RegistryObject<Item> DIAMOND_KNIFE = REGISTRY.register("diamond_knife", () -> new DiamondKnifeItem());
 	public static final RegistryObject<Item> OBSIDIAN_KNIFES = REGISTRY.register("obsidian_knifes", () -> new ObsidianKnifesItem());
+	public static final RegistryObject<Item> RUBBER_DUCK_SPAWN_EGG = REGISTRY.register("rubber_duck_spawn_egg", () -> new ForgeSpawnEggItem(JacksautismembodiedModEntities.RUBBER_DUCK, -2952, -29621, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
