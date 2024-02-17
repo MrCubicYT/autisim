@@ -21,13 +21,19 @@ description="As the name suggests..."
 
 
 [[dependencies.jacksautismembodied]]
-    modId="curios_api"
+    modId="kleidersplayerrenderer"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.jacksautismembodied]]
-    modId="structure_expansion"
+    modId="pehkui"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jacksautismembodied]]
+    modId="curios_api"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
@@ -40,72 +46,6 @@ description="As the name suggests..."
     side="BOTH"
 [[dependencies.jacksautismembodied]]
     modId="playeranimator"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="jsonforhttprequest"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="world_preview"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="kleidersplayerrenderer"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="world_edit"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="pehkui"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="just_zoom"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="worldgen"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="structure_gel_api"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="konkrete"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="lucent"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.jacksautismembodied]]
-    modId="huge_structure_blocks"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

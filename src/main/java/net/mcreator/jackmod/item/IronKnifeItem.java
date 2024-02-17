@@ -7,6 +7,9 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
+
+import net.mcreator.jackmod.procedures.WoodenKnifeLivingEntityIsHitWithToolProcedure;
 
 public class IronKnifeItem extends PickaxeItem {
 	public IronKnifeItem() {
@@ -35,5 +38,12 @@ public class IronKnifeItem extends PickaxeItem {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
 		}, 1, -3f, new Item.Properties());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		WoodenKnifeLivingEntityIsHitWithToolProcedure.execute(entity);
+		return retval;
 	}
 }

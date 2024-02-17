@@ -69,6 +69,7 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> IRON_KNIFE = REGISTRY.register("iron_knife", () -> new IronKnifeItem());
 	public static final RegistryObject<Item> DIAMOND_KNIFE = REGISTRY.register("diamond_knife", () -> new DiamondKnifeItem());
 	public static final RegistryObject<Item> OBSIDIAN_KNIFES = REGISTRY.register("obsidian_knifes", () -> new ObsidianKnifesItem());
+	public static final RegistryObject<Item> RUBBER_DUCK_SPAWN_EGG = REGISTRY.register("rubber_duck_spawn_egg", () -> new ForgeSpawnEggItem(JacksautismembodiedModEntities.RUBBER_DUCK, -2952, -29621, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

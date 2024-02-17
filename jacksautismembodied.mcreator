@@ -388,7 +388,8 @@
         "files": [
           "src/main/java/net/mcreator/jackmod/potion/DepressedMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "CocainePlayerFinishesUsingItem",
@@ -492,7 +493,8 @@
         "files": [
           "src/main/java/net/mcreator/jackmod/potion/GayMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "GayEffectExpires",
@@ -2329,6 +2331,132 @@
           "src/main/resources/assets/jacksautismembodied/models/item/wooden_knife.json"
         ]
       }
+    },
+    {
+      "name": "WoodenKnifeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_knife_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/WoodenKnifeLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "H",
+      "type": "structure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/h.json",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/h_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/h.json",
+          "src/main/java/net/mcreator/jackmod/world/features/HFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "I",
+      "type": "structure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/world/features/IFeature.java",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/i.json",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/i_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/i.json"
+        ]
+      }
+    },
+    {
+      "name": "RubberDuck",
+      "type": "livingentity",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_duck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/rubber_duck_spawn_egg.json",
+          "src/main/java/net/mcreator/jackmod/entity/RubberDuckEntity.java",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/rubber_duck_biome_modifier.json",
+          "src/main/java/net/mcreator/jackmod/client/renderer/RubberDuckRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "J",
+      "type": "structure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "j",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/j_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/j.json",
+          "src/main/java/net/mcreator/jackmod/world/features/JFeature.java",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/j.json"
+        ]
+      }
+    },
+    {
+      "name": "K",
+      "type": "structure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/k.json",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/k_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/k.json",
+          "src/main/java/net/mcreator/jackmod/world/features/KFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Jack",
+      "type": "painting",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jack",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "L",
+      "type": "structure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/l.json",
+          "src/main/java/net/mcreator/jackmod/world/features/LFeature.java",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/l.json",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/l_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2523,6 +2651,7 @@
       "item.jacksautismembodied.wooden_knife": "Wooden Knife",
       "advancements.no.descr": "Is their any exit?",
       "item.jacksautismembodied.health_pickup": "Health Pickup",
+      "painting.jacksautismembodied.jack.author": "Jack calumboski",
       "subtitles.shoot": "RifleShoot",
       "advancements.dinner_is_served.title": "Dinner Is Served",
       "death.attack.bled": "%s bled out",
@@ -2545,6 +2674,7 @@
       "effect.jacksautismembodied.deadly_diarrhoea": "diarrhoea",
       "effect.jacksautismembodied.obesity": "Obesity",
       "subtitles.block.zfightamb": "-.. --- -. - / --. ---",
+      "painting.jacksautismembodied.jack.title": "Jack",
       "subtitles.peehurt": "Piss baby hurt",
       "item.jacksautismembodied.purepiss": "PUREPISS",
       "block.jacksautismembodied.tiled_sandstone": "Tiled Sandstone",
@@ -2576,11 +2706,13 @@
       "biome.jacksautismembodied.mimic": "Mimic",
       "item.jacksautismembodied.diamond_knife": "Diamond Knife",
       "effect.jacksautismembodied.bleeding": "Bleeding",
+      "item.jacksautismembodied.rubber_duck_spawn_egg": "Rubber Duck Spawn Egg",
       "subtitles.kevins": "kevins idle",
       "item.jacksautismembodied.unfiltered_bottle_of_piss": "Unfiltered Bottle Of Piss",
       "block.jacksautismembodied.bad_grave": "Bad Grave",
       "item.jackmod.unfiltered_bottle_of_piss": "Unfiltered Bottle Of Piss",
       "block.jacksautismembodied.nill": "NILL",
+      "entity.jacksautismembodied.rubber_duck": "Rubber Duck",
       "item.jacksautismembodied.kevins_spawn_egg": "Kevins Spawn Egg"
     }
   },
@@ -2657,21 +2789,11 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "curios_api",
-      "structure_expansion",
-      "geckolib",
-      "playeranimator",
-      "jsonforhttprequest",
-      "world_preview",
       "kleidersplayerrenderer",
-      "world_edit",
       "pehkui",
-      "just_zoom",
-      "worldgen",
-      "structure_gel_api",
-      "konkrete",
-      "lucent",
-      "huge_structure_blocks"
+      "curios_api",
+      "geckolib",
+      "playeranimator"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Netreyu, Cubic, Hdticket",

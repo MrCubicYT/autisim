@@ -4,7 +4,11 @@ package net.mcreator.jackmod.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
+
+import net.mcreator.jackmod.procedures.WoodenKnifeLivingEntityIsHitWithToolProcedure;
 
 public class DiamondKnifeItem extends PickaxeItem {
 	public DiamondKnifeItem() {
@@ -33,5 +37,12 @@ public class DiamondKnifeItem extends PickaxeItem {
 				return Ingredient.of();
 			}
 		}, 1, -3f, new Item.Properties());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		WoodenKnifeLivingEntityIsHitWithToolProcedure.execute(entity);
+		return retval;
 	}
 }

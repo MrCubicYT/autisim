@@ -20,6 +20,7 @@
   "item.jacksautismembodied.wooden_knife": "Wooden Knife",
   "advancements.no.descr": "Is their any exit?",
   "item.jacksautismembodied.health_pickup": "Health Pickup",
+  "painting.jacksautismembodied.jack.author": "Jack calumboski",
   "subtitles.shoot": "RifleShoot",
   "advancements.dinner_is_served.title": "Dinner Is Served",
   "death.attack.bled": "%s bled out",
@@ -42,6 +43,7 @@
   "effect.jacksautismembodied.deadly_diarrhoea": "diarrhoea",
   "effect.jacksautismembodied.obesity": "Obesity",
   "subtitles.block.zfightamb": "-.. --- -. - / --. ---",
+  "painting.jacksautismembodied.jack.title": "Jack",
   "subtitles.peehurt": "Piss baby hurt",
   "item.jacksautismembodied.purepiss": "PUREPISS",
   "block.jacksautismembodied.tiled_sandstone": "Tiled Sandstone",
@@ -73,10 +75,12 @@
   "biome.jacksautismembodied.mimic": "Mimic",
   "item.jacksautismembodied.diamond_knife": "Diamond Knife",
   "effect.jacksautismembodied.bleeding": "Bleeding",
+  "item.jacksautismembodied.rubber_duck_spawn_egg": "Rubber Duck Spawn Egg",
   "subtitles.kevins": "kevins idle",
   "item.jacksautismembodied.unfiltered_bottle_of_piss": "Unfiltered Bottle Of Piss",
   "block.jacksautismembodied.bad_grave": "Bad Grave",
   "item.jackmod.unfiltered_bottle_of_piss": "Unfiltered Bottle Of Piss",
   "block.jacksautismembodied.nill": "NILL",
+  "entity.jacksautismembodied.rubber_duck": "Rubber Duck",
   "item.jacksautismembodied.kevins_spawn_egg": "Kevins Spawn Egg"
 }

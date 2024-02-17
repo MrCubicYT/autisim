@@ -51,6 +51,7 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.SECOND_CHANCE.get());
 			tabData.accept(JacksautismembodiedModItems.WATCHER_SPAWN_EGG.get());
 			tabData.accept(JacksautismembodiedModItems.KABEEM_SPAWN_EGG.get());
+			tabData.accept(JacksautismembodiedModItems.RUBBER_DUCK_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
