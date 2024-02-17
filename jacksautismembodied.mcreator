@@ -1769,6 +1769,103 @@
         ]
       },
       "path": "~/Nowhere"
+    },
+    {
+      "name": "HealthPickupItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pickup_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/HealthPickupItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealthPickup",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pickup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/health_pickup.json",
+          "src/main/java/net/mcreator/jackmod/item/HealthPickupItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HealthPickupPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pickup_property_value_provider",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/HealthPickupPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Christmas",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/christmas.json",
+          "src/main/java/net/mcreator/jackmod/item/ChristmasItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DIES",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/DIESProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1930,6 +2027,7 @@
       "biome.jacksautismembodied.fields": "Fields",
       "block.jacksautismembodied.rose": "Rose",
       "biome.jacksautismembodied.fallback": "FALLBACK",
+      "item.jacksautismembodied.christmas": "Health Pickup",
       "entity.jacksautismembodied.piss_baby": "Piss Baby",
       "subtitles.dgrave": "Stupid grave lol",
       "item.jackmod.piss_baby_spawn_egg": "Piss Baby Spawn Egg",
@@ -1937,6 +2035,7 @@
       "block.jackmod.bad_grave": "Bad Grave",
       "subtitles.thiccbathit1": "Thicc Bat Hits",
       "advancements.no.descr": "Is their any exit?",
+      "item.jacksautismembodied.health_pickup": "Health Pickup",
       "subtitles.shoot": "RifleShoot",
       "advancements.dinner_is_served.title": "Dinner Is Served",
       "advancements.no.title": "The road to nowhere",
