@@ -125,14 +125,18 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Unstable"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.GRASS"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 1,
     "frequencyOnChunk": 1,
     "minGenerateHeight": -64,
     "maxGenerateHeight": 256

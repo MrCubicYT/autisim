@@ -1,8 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "jacksautismembodied:unstable",
   "features": "jacksautismembodied:zfightblock",
   "step": "underground_ores"
 }
