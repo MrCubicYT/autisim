@@ -23,4 +23,5 @@ public class JacksautismembodiedModSounds {
 	public static final RegistryObject<SoundEvent> KEVINS = REGISTRY.register("kevins", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "kevins")));
 	public static final RegistryObject<SoundEvent> TOOLS_THICCBAT_HIT = REGISTRY.register("tools.thiccbat.hit", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "tools.thiccbat.hit")));
 	public static final RegistryObject<SoundEvent> SHOOT = REGISTRY.register("shoot", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "shoot")));
+	public static final RegistryObject<SoundEvent> BLOCK_ZFIGHTAMB = REGISTRY.register("block.zfightamb", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "block.zfightamb")));
 }

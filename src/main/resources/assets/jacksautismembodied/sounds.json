@@ -154,5 +154,14 @@
         "stream": false
       }
     ]
+  },
+  "block.zfightamb": {
+    "subtitle": "subtitles.block.zfightamb",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:morse",
+        "stream": false
+      }
+    ]
   }
 }

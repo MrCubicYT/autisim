@@ -28,6 +28,10 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModBlocks.GOOFY_OFFERING.get().asItem());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(JacksautismembodiedModBlocks.ZFIGHTBLOCK.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(JacksautismembodiedModItems.PUREPISS.get());
 			tabData.accept(JacksautismembodiedModItems.BIGBAT.get());

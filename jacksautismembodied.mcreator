@@ -1769,6 +1769,75 @@
         ]
       },
       "path": "~/Nowhere"
+    },
+    {
+      "name": "Zfightblock",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zfightblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/zfightblock_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/zfightblock.json",
+          "src/main/java/net/mcreator/jackmod/world/features/ores/ZfightblockFeature.java",
+          "src/main/java/net/mcreator/jackmod/block/ZfightblockBlock.java",
+          "src/main/resources/assets/jacksautismembodied/models/block/zfightblock.json",
+          "src/main/resources/assets/jacksautismembodied/blockstates/zfightblock.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/zfightblock.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/zfightblock.json"
+        ]
+      },
+      "path": "~/Backrooms"
+    },
+    {
+      "name": "Unstable",
+      "type": "biome",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unstable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/unstable_tree.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/biome/unstable.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/unstable_tree.json"
+        ]
+      },
+      "path": "~/Backrooms"
+    },
+    {
+      "name": "Blockmorse",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockmorse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/BlockmorseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Backrooms"
     }
   ],
   "variable_elements": [
@@ -1918,6 +1987,14 @@
       ],
       "category": "player",
       "subtitle": "RifleShoot"
+    },
+    {
+      "name": "block.zfightamb",
+      "files": [
+        "morse"
+      ],
+      "category": "block",
+      "subtitle": "-.. --- -. - / --. ---"
     }
   ],
   "language_map": {
@@ -1925,21 +2002,23 @@
       "subtitles.tools.thiccbat.hit": "Thicc Bat Hits",
       "item.jacksautismembodied.rifle": "Rifle",
       "block.jacksautismembodied.good_grave": "Good Grave",
-      "entity.jacksautismembodied.kevins": "Kevins",
       "item.jackmod.purepiss": "PUREPISS",
+      "entity.jacksautismembodied.kevins": "Kevins",
       "biome.jacksautismembodied.fields": "Fields",
       "block.jacksautismembodied.rose": "Rose",
       "biome.jacksautismembodied.fallback": "FALLBACK",
       "entity.jacksautismembodied.piss_baby": "Piss Baby",
       "subtitles.dgrave": "Stupid grave lol",
+      "biome.jacksautismembodied.unstable": "Unstable",
       "item.jackmod.piss_baby_spawn_egg": "Piss Baby Spawn Egg",
-      "advancements.dinner_is_served.descr": "Cook a beef cube",
       "block.jackmod.bad_grave": "Bad Grave",
+      "advancements.dinner_is_served.descr": "Cook a beef cube",
       "subtitles.thiccbathit1": "Thicc Bat Hits",
       "advancements.no.descr": "Is their any exit?",
       "subtitles.shoot": "RifleShoot",
       "advancements.dinner_is_served.title": "Dinner Is Served",
       "advancements.no.title": "The road to nowhere",
+      "block.jacksautismembodied.zfightblock": "Grass.",
       "item.jacksautismembodied.hate_trinket": "Hate Trinket",
       "item.jacksautismembodied.second_chance": "Second Chance",
       "subtitles.pee": "Piss baby really needs to piss",
@@ -1954,6 +2033,7 @@
       "effect.jacksautismembodied.depressed": "Depressed",
       "biome.jacksautismembodied.ancient": "Ancient",
       "effect.jacksautismembodied.obesity": "Obesity",
+      "subtitles.block.zfightamb": "-.. --- -. - / --. ---",
       "subtitles.peehurt": "Piss baby hurt",
       "item.jacksautismembodied.purepiss": "PUREPISS",
       "item.minecraft.lingering_potion.effect.bottle_of_piss": "Lingering Potion of Piss",
@@ -2034,6 +2114,10 @@
       },
       {
         "name": "Effects",
+        "children": []
+      },
+      {
+        "name": "Backrooms",
         "children": []
       }
     ]
