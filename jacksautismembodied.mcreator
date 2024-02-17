@@ -388,8 +388,7 @@
         "files": [
           "src/main/java/net/mcreator/jackmod/potion/DepressedMobEffect.java"
         ]
-      },
-      "path": "~/Effects"
+      }
     },
     {
       "name": "CocainePlayerFinishesUsingItem",
@@ -493,8 +492,7 @@
         "files": [
           "src/main/java/net/mcreator/jackmod/potion/GayMobEffect.java"
         ]
-      },
-      "path": "~/Effects"
+      }
     },
     {
       "name": "GayEffectExpires",
