@@ -81,6 +81,8 @@ public class JacksautismembodiedModVariables {
 			clone.isgay = original.isgay;
 			clone.ObeaseChecker = original.ObeaseChecker;
 			clone.FU = original.FU;
+			clone.lactated = original.lactated;
+			clone.lactose = original.lactose;
 			if (!event.isWasDeath()) {
 				clone.Shmungus = original.Shmungus;
 				clone.isdepressed = original.isdepressed;
@@ -137,6 +139,8 @@ public class JacksautismembodiedModVariables {
 		public double hasbenngiven = 0;
 		public double FU = 0;
 		public double used = 0;
+		public double lactated = 0;
+		public double lactose = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -155,6 +159,8 @@ public class JacksautismembodiedModVariables {
 			nbt.putDouble("hasbenngiven", hasbenngiven);
 			nbt.putDouble("FU", FU);
 			nbt.putDouble("used", used);
+			nbt.putDouble("lactated", lactated);
+			nbt.putDouble("lactose", lactose);
 			return nbt;
 		}
 
@@ -170,6 +176,8 @@ public class JacksautismembodiedModVariables {
 			hasbenngiven = nbt.getDouble("hasbenngiven");
 			FU = nbt.getDouble("FU");
 			used = nbt.getDouble("used");
+			lactated = nbt.getDouble("lactated");
+			lactose = nbt.getDouble("lactose");
 		}
 	}
 
@@ -213,6 +221,8 @@ public class JacksautismembodiedModVariables {
 					variables.hasbenngiven = message.data.hasbenngiven;
 					variables.FU = message.data.FU;
 					variables.used = message.data.used;
+					variables.lactated = message.data.lactated;
+					variables.lactose = message.data.lactose;
 				}
 			});
 			context.setPacketHandled(true);

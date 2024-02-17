@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jacksautismembodied:block/fart",
+    "up": "jacksautismembodied:block/fart",
+    "north": "jacksautismembodied:block/fart",
+    "east": "jacksautismembodied:block/fart",
+    "south": "jacksautismembodied:block/fart",
+    "west": "jacksautismembodied:block/fart",
+    "particle": "jacksautismembodied:block/fart"
+  },
+  "render_type": "solid"
+}

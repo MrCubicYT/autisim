@@ -1,0 +1,6 @@
+{
+  "parent": "jacksautismembodied:displaysettings/springpad.item",
+  "textures": {
+    "particle": "jacksautismembodied:block/stone"
+  }
+}

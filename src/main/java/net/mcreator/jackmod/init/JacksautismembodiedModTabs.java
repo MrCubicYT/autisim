@@ -26,6 +26,10 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModBlocks.BAD_GRAVE.get().asItem());
 			tabData.accept(JacksautismembodiedModBlocks.GOOD_GRAVE.get().asItem());
 			tabData.accept(JacksautismembodiedModBlocks.GOOFY_OFFERING.get().asItem());
+			tabData.accept(JacksautismembodiedModBlocks.SPRING_PAD.get().asItem());
+			tabData.accept(JacksautismembodiedModBlocks.STONE_PATH.get().asItem());
+			tabData.accept(JacksautismembodiedModBlocks.TILED_SANDSTONE.get().asItem());
+			tabData.accept(JacksautismembodiedModBlocks.ETCHED_SANDSTONE.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
@@ -36,6 +40,7 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.PUREPISS.get());
 			tabData.accept(JacksautismembodiedModItems.BIGBAT.get());
 			tabData.accept(JacksautismembodiedModItems.RIFLE.get());
+			tabData.accept(JacksautismembodiedModItems.WOODEN_KNIFE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
@@ -54,6 +59,10 @@ public class JacksautismembodiedModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(JacksautismembodiedModItems.GILDED_BAT.get());
+			tabData.accept(JacksautismembodiedModItems.STONE_KNIFE.get());
+			tabData.accept(JacksautismembodiedModItems.IRON_KNIFE.get());
+			tabData.accept(JacksautismembodiedModItems.DIAMOND_KNIFE.get());
+			tabData.accept(JacksautismembodiedModItems.OBSIDIAN_KNIFES.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {

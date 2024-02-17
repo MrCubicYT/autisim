@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jacksautismembodied:goofy_offering"
+    }
+  ],
+  "result": {
+    "item": "jacksautismembodied:deleted_mod_element",
+    "count": 9
+  }
+}
