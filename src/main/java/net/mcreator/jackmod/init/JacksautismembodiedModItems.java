@@ -59,6 +59,7 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> ZFIGHTBLOCK = block(JacksautismembodiedModBlocks.ZFIGHTBLOCK);
 	public static final RegistryObject<Item> HEALTH_PICKUP = REGISTRY.register("health_pickup", () -> new HealthPickupItem());
 	public static final RegistryObject<Item> CHRISTMAS = REGISTRY.register("christmas", () -> new ChristmasItem());
+	public static final RegistryObject<Item> KABEEM_SPAWN_EGG = REGISTRY.register("kabeem_spawn_egg", () -> new ForgeSpawnEggItem(JacksautismembodiedModEntities.KABEEM, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SPRING_PAD = REGISTRY.register(JacksautismembodiedModBlocks.SPRING_PAD.getId().getPath(), () -> new SpringPadDisplayItem(JacksautismembodiedModBlocks.SPRING_PAD.get(), new Item.Properties()));
 	public static final RegistryObject<Item> STONE_PATH = block(JacksautismembodiedModBlocks.STONE_PATH);
 	public static final RegistryObject<Item> TILED_SANDSTONE = block(JacksautismembodiedModBlocks.TILED_SANDSTONE);
