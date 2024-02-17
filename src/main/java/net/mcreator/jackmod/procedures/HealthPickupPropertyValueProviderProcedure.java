@@ -1,8 +1,6 @@
 package net.mcreator.jackmod.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import java.util.Calendar;
 
 public class HealthPickupPropertyValueProviderProcedure {
 	public static boolean execute() {
