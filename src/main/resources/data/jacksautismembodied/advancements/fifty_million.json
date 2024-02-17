@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "jacksautismembodied:uranium"
+    },
+    "title": {
+      "translate": "advancements.fifty_million.title"
+    },
+    "description": {
+      "translate": "advancements.fifty_million.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fifty_million": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "jacksautismembodied:uranium"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "jacksautismembodied:dinner_is_served"
+}

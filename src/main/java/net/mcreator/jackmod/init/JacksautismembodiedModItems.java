@@ -14,11 +14,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.jackmod.item.WoodenKnifeItem;
+import net.mcreator.jackmod.item.UraniumItem;
 import net.mcreator.jackmod.item.UnoReverseItem;
 import net.mcreator.jackmod.item.UnfilteredBottleOfPissItem;
 import net.mcreator.jackmod.item.StoneKnifeItem;
 import net.mcreator.jackmod.item.SecondChanceItem;
 import net.mcreator.jackmod.item.RifleItem;
+import net.mcreator.jackmod.item.RealDiamondItem;
 import net.mcreator.jackmod.item.PUREPISSItem;
 import net.mcreator.jackmod.item.ObsidianKnifesItem;
 import net.mcreator.jackmod.item.KreemItem;
@@ -72,6 +74,8 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> OBSIDIAN_KNIFES = REGISTRY.register("obsidian_knifes", () -> new ObsidianKnifesItem());
 	public static final RegistryObject<Item> RUBBER_DUCK_SPAWN_EGG = REGISTRY.register("rubber_duck_spawn_egg", () -> new ForgeSpawnEggItem(JacksautismembodiedModEntities.RUBBER_DUCK, -2952, -29621, new Item.Properties()));
 	public static final RegistryObject<Item> KREEM = REGISTRY.register("kreem", () -> new KreemItem());
+	public static final RegistryObject<Item> REAL_DIAMOND = REGISTRY.register("real_diamond", () -> new RealDiamondItem());
+	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

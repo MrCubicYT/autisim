@@ -31,10 +31,18 @@ public class DSASSProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
 		if (Math.random() < 0.1) {
 			if (Math.random() < 0.1) {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = JacksautismembodiedModEntities.HUMAN.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
-					if (entityToSpawn != null) {
-						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+				if (Math.random() < 0.1) {
+					if (Math.random() < 0.1) {
+						if (Math.random() < 0.1) {
+							if (Math.random() < 0.1) {
+								if (world instanceof ServerLevel _level) {
+									Entity entityToSpawn = JacksautismembodiedModEntities.RUN.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+									if (entityToSpawn != null) {
+										entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+									}
+								}
+							}
+						}
 					}
 				}
 			}

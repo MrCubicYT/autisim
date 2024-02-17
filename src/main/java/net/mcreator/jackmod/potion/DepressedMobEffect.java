@@ -6,6 +6,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.jackmod.procedures.DepressedOnEffectActiveTickProcedure;
 import net.mcreator.jackmod.procedures.DepressedEffectExpiresProcedure;
 
 public class DepressedMobEffect extends MobEffect {
@@ -21,6 +22,11 @@ public class DepressedMobEffect extends MobEffect {
 	@Override
 	public boolean isInstantenous() {
 		return true;
+	}
+
+	@Override
+	public void applyEffectTick(LivingEntity entity, int amplifier) {
+		DepressedOnEffectActiveTickProcedure.execute(entity);
 	}
 
 	@Override

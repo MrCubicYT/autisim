@@ -1,0 +1,10 @@
+{
+  "type": "jacksautismembodied:jacksautismembodied_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "chests/abandoned_mineshaft"
+    }
+  ],
+  "lootTable": "minecraft:chests/test"
+}

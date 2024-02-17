@@ -2546,6 +2546,216 @@
           "src/main/resources/assets/jacksautismembodied/models/item/kreem.json"
         ]
       }
+    },
+    {
+      "name": "RUN",
+      "type": "livingentity",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "run",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/run_biome_modifier.json",
+          "src/main/java/net/mcreator/jackmod/client/renderer/RUNRenderer.java",
+          "src/main/java/net/mcreator/jackmod/entity/RUNEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "loottable",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/test.json"
+        ]
+      }
+    },
+    {
+      "name": "Je",
+      "type": "lootmodifier",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "je",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/loot_modifiers/je.json"
+        ]
+      }
+    },
+    {
+      "name": "RealDiamondItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "real_diamond_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/RealDiamondItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RealDiamond",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "real_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/RealDiamondItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/real_diamond.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/UraniumOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/uranium.json",
+          "src/main/java/net/mcreator/jackmod/item/UraniumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FiftyMillion",
+      "type": "achievement",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_million",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/advancements/fifty_million.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniums",
+      "type": "loottable",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniums",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/loot_tables/chests/uraniums.json"
+        ]
+      }
+    },
+    {
+      "name": "Modify",
+      "type": "lootmodifier",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modify",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/loot_modifiers/modify.json"
+        ]
+      }
+    },
+    {
+      "name": "Goodloot",
+      "type": "loottable",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goodloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/loot_tables/chests/goodloot.json"
+        ]
+      }
+    },
+    {
+      "name": "FORTNITE",
+      "type": "structure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fortnite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/world/features/FORTNITEFeature.java",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/fortnite.json",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/fortnite_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/fortnite.json"
+        ]
+      }
+    },
+    {
+      "name": "DepressedOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depressed_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/DepressedOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2756,7 +2966,9 @@
       "item.jacksautismembodied.hate_trinket": "Hate Trinket",
       "item.jacksautismembodied.second_chance": "Second Chance",
       "subtitles.pee": "Piss baby really needs to piss",
+      "advancements.fifty_million.descr": "Eat uranium",
       "biome.jacksautismembodied.voids": "Voids",
+      "entity.jacksautismembodied.run": "RUN",
       "item.minecraft.splash_potion.effect.bottle_of_piss": "Splash Potion of Piss",
       "entity.jacksautismembodied.watcher": "Watcher",
       "death.attack.bleed": "%s bled out",
@@ -2774,6 +2986,7 @@
       "subtitles.peehurt": "Piss baby hurt",
       "item.jacksautismembodied.purepiss": "PUREPISS",
       "block.jacksautismembodied.tiled_sandstone": "Tiled Sandstone",
+      "item.jacksautismembodied.uranium": "Uranium",
       "item.jacksautismembodied.stone_knife": "Stone Knife",
       "item.minecraft.lingering_potion.effect.bottle_of_piss": "Lingering Potion of Piss",
       "biome.jacksautismembodied.mountains": "Mountains",
@@ -2805,6 +3018,8 @@
       "effect.jacksautismembodied.bleeding": "Bleeding",
       "item.jacksautismembodied.rubber_duck_spawn_egg": "Rubber Duck Spawn Egg",
       "subtitles.kevins": "kevins idle",
+      "item.jacksautismembodied.real_diamond": "Diamond",
+      "advancements.fifty_million.title": "Fifty Million calories",
       "item.jacksautismembodied.unfiltered_bottle_of_piss": "Unfiltered Bottle Of Piss",
       "block.jacksautismembodied.bad_grave": "Bad Grave",
       "item.jackmod.unfiltered_bottle_of_piss": "Unfiltered Bottle Of Piss",

@@ -22,6 +22,7 @@ import net.mcreator.jackmod.world.features.KFeature;
 import net.mcreator.jackmod.world.features.JFeature;
 import net.mcreator.jackmod.world.features.IFeature;
 import net.mcreator.jackmod.world.features.HFeature;
+import net.mcreator.jackmod.world.features.FORTNITEFeature;
 import net.mcreator.jackmod.world.features.ERFeature;
 import net.mcreator.jackmod.world.features.CreepFeature;
 import net.mcreator.jackmod.world.features.CFeature;
@@ -44,4 +45,5 @@ public class JacksautismembodiedModFeatures {
 	public static final RegistryObject<Feature<?>> J = REGISTRY.register("j", JFeature::new);
 	public static final RegistryObject<Feature<?>> K = REGISTRY.register("k", KFeature::new);
 	public static final RegistryObject<Feature<?>> L = REGISTRY.register("l", LFeature::new);
+	public static final RegistryObject<Feature<?>> FORTNITE = REGISTRY.register("fortnite", FORTNITEFeature::new);
 }

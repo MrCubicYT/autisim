@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.jackmod.entity.WatcherEntity;
 import net.mcreator.jackmod.entity.RubberDuckEntity;
 import net.mcreator.jackmod.entity.RifleEntity;
+import net.mcreator.jackmod.entity.RUNEntity;
 import net.mcreator.jackmod.entity.PissBabyEntity;
 import net.mcreator.jackmod.entity.PUREPISSEntity;
 import net.mcreator.jackmod.entity.KevinsEntity;
@@ -55,6 +56,10 @@ public class JacksautismembodiedModEntities {
 			EntityType.Builder.<RubberDuckEntity>of(RubberDuckEntity::new, MobCategory.WATER_CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RubberDuckEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<RUNEntity>> RUN = register("run",
+			EntityType.Builder.<RUNEntity>of(RUNEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RUNEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -69,6 +74,7 @@ public class JacksautismembodiedModEntities {
 			HumanEntity.init();
 			KabeemEntity.init();
 			RubberDuckEntity.init();
+			RUNEntity.init();
 		});
 	}
 
@@ -80,5 +86,6 @@ public class JacksautismembodiedModEntities {
 		event.put(HUMAN.get(), HumanEntity.createAttributes().build());
 		event.put(KABEEM.get(), KabeemEntity.createAttributes().build());
 		event.put(RUBBER_DUCK.get(), RubberDuckEntity.createAttributes().build());
+		event.put(RUN.get(), RUNEntity.createAttributes().build());
 	}
 }

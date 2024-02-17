@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.jackmod.client.renderer.WatcherRenderer;
 import net.mcreator.jackmod.client.renderer.RubberDuckRenderer;
+import net.mcreator.jackmod.client.renderer.RUNRenderer;
 import net.mcreator.jackmod.client.renderer.PissBabyRenderer;
 import net.mcreator.jackmod.client.renderer.KevinsRenderer;
 import net.mcreator.jackmod.client.renderer.KabeemRenderer;
@@ -30,5 +31,6 @@ public class JacksautismembodiedModEntityRenderers {
 		event.registerEntityRenderer(JacksautismembodiedModEntities.HUMAN.get(), HumanRenderer::new);
 		event.registerEntityRenderer(JacksautismembodiedModEntities.KABEEM.get(), KabeemRenderer::new);
 		event.registerEntityRenderer(JacksautismembodiedModEntities.RUBBER_DUCK.get(), RubberDuckRenderer::new);
+		event.registerEntityRenderer(JacksautismembodiedModEntities.RUN.get(), RUNRenderer::new);
 	}
 }
