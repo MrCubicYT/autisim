@@ -51,7 +51,7 @@ public class ShockwaveProcedure {
 				if (entityiterator == entity) {
 					entityiterator.setDeltaMovement(new Vec3(0, 0.5, 0));
 				} else if (entityiterator.getType().is(TagKey.create(Registries.ENTITY_TYPE, new ResourceLocation("minecraft:falling_block")))) {
-					entityiterator.setDeltaMovement(new Vec3((Mth.nextDouble(RandomSource.create(), 0.05 * (entityiterator.getX() - x), 0.1 * (entityiterator.getX() - x))), Math.abs(0.3 * (entityiterator.getY() - y)),
+					entityiterator.setDeltaMovement(new Vec3((Mth.nextDouble(RandomSource.create(), 0.05 * (entityiterator.getX() - x), 1 * (entityiterator.getX() - x))), Math.abs(0.3 * (entityiterator.getY() - y)),
 							(Mth.nextDouble(RandomSource.create(), 0.05 * (entityiterator.getZ() - z), 0.1 * (entityiterator.getZ() - z)))));
 				} else if (!entityiterator.getType().is(TagKey.create(Registries.ENTITY_TYPE, new ResourceLocation("minecraft:falling_block")))) {
 					entityiterator.setDeltaMovement(new Vec3((Mth.nextDouble(RandomSource.create(), 0.99 * (entityiterator.getX() - x), 1.99 * (entityiterator.getX() - x))), Math.abs(0.3 * (entityiterator.getY() - y)),

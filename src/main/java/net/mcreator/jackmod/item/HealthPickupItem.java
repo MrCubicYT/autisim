@@ -1,13 +1,8 @@
 
 package net.mcreator.jackmod.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.Entity;
-
-import net.mcreator.jackmod.procedures.HealthPickupItemInInventoryTickProcedure;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import javax.annotation.Nullable;
 
 public class HealthPickupItem extends Item {
 	public HealthPickupItem() {

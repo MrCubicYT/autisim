@@ -1,20 +1,8 @@
 package net.mcreator.jackmod.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.living.LivingDeathEvent;
-
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.server.level.ServerLevel;
-
-import net.mcreator.jackmod.init.JacksautismembodiedModItems;
 
 import javax.annotation.Nullable;
-
-import java.util.Calendar;
 
 @Mod.EventBusSubscriber
 public class DIESProcedure {
@@ -39,7 +27,7 @@ public class DIESProcedure {
 				}
 			} else {
 				if (world instanceof ServerLevel _level) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(JacksautismembodiedModItems.HEALTH_PICKUP.get()));
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(JacksautismembodiedModItems.DELETED_MOD_ELEMENT.get()));
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);
 				}

@@ -1,0 +1,10 @@
+{
+  "parent": "jacksautismembodied:custom/weirdgrass",
+  "textures": {
+    "all": "jacksautismembodied:block/beef",
+    "particle": "jacksautismembodied:block/beef",
+    "0": "jacksautismembodied:block/screenshot_2",
+    "1": "jacksautismembodied:block/3990038ed73ad3832195151af1c9438ca5ff765f_00"
+  },
+  "render_type": "solid"
+}

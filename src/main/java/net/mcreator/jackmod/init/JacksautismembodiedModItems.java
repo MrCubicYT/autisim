@@ -50,6 +50,7 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> WATCHER_SPAWN_EGG = REGISTRY.register("watcher_spawn_egg", () -> new ForgeSpawnEggItem(JacksautismembodiedModEntities.WATCHER, -16777216, -1, new Item.Properties()));
 	public static final RegistryObject<Item> NILL = block(JacksautismembodiedModBlocks.NILL);
 	public static final RegistryObject<Item> ROSE = block(JacksautismembodiedModBlocks.ROSE);
+	public static final RegistryObject<Item> ZFIGHTBLOCK = block(JacksautismembodiedModBlocks.ZFIGHTBLOCK);
 	public static final RegistryObject<Item> HEALTH_PICKUP = REGISTRY.register("health_pickup", () -> new HealthPickupItem());
 	public static final RegistryObject<Item> CHRISTMAS = REGISTRY.register("christmas", () -> new ChristmasItem());
 

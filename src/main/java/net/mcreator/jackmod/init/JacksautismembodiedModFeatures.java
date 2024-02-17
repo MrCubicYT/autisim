@@ -15,6 +15,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.jackmod.world.features.plants.RoseFeature;
+import net.mcreator.jackmod.world.features.ores.ZfightblockFeature;
 import net.mcreator.jackmod.world.features.ERFeature;
 import net.mcreator.jackmod.world.features.CreepFeature;
 import net.mcreator.jackmod.world.features.CFeature;
@@ -31,4 +32,5 @@ public class JacksautismembodiedModFeatures {
 	public static final RegistryObject<Feature<?>> CREEP = REGISTRY.register("creep", CreepFeature::new);
 	public static final RegistryObject<Feature<?>> ER = REGISTRY.register("er", ERFeature::new);
 	public static final RegistryObject<Feature<?>> ROSE = REGISTRY.register("rose", RoseFeature::new);
+	public static final RegistryObject<Feature<?>> ZFIGHTBLOCK = REGISTRY.register("zfightblock", ZfightblockFeature::new);
 }
