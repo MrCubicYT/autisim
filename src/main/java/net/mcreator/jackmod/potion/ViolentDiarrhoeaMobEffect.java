@@ -1,6 +1,12 @@
 
 package net.mcreator.jackmod.potion;
 
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
+
+import net.mcreator.jackmod.procedures.ViolentDiarrhoeaOnEffectActiveTickProcedure;
+
 public class ViolentDiarrhoeaMobEffect extends MobEffect {
 	public ViolentDiarrhoeaMobEffect() {
 		super(MobEffectCategory.NEUTRAL, -10930420);
@@ -13,7 +19,7 @@ public class ViolentDiarrhoeaMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		ViolentDiarrhoeaOnEffectActiveTickProcedure.execute();
+		ViolentDiarrhoeaOnEffectActiveTickProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 
 	@Override

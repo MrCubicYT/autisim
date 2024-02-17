@@ -1,8 +1,16 @@
 package net.mcreator.jackmod.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
-import javax.annotation.Nullable;
+import net.mcreator.jackmod.network.JacksautismembodiedModVariables;
+import net.mcreator.jackmod.JacksautismembodiedMod;
 
 public class ObesityOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -22,10 +30,12 @@ public class ObesityOnEffectActiveTickProcedure {
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"scale add pehkui:width shmu " + entity.getStringUUID());
 		}
-		if (world instanceof ServerLevel _level) {
-			System.out.println(entity.getStringUUID());
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"scale reset " + entity.getStringUUID());
-		}
+		JacksautismembodiedMod.queueServerWork(100, () -> {
+			if (world instanceof ServerLevel _level) {
+				System.out.println(entity.getStringUUID());
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"scale reset " + entity.getStringUUID());
+			}
+		});
 	}
 }

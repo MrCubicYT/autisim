@@ -1,7 +1,12 @@
 
 package net.mcreator.jackmod.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
 public class IronKnifeItem extends PickaxeItem {
 	public IronKnifeItem() {

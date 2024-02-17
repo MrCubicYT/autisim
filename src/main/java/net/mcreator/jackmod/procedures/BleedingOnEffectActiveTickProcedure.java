@@ -1,8 +1,12 @@
 package net.mcreator.jackmod.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
 
 public class BleedingOnEffectActiveTickProcedure {
 	public static void execute(Entity entity) {

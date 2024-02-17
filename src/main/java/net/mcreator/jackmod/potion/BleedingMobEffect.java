@@ -1,6 +1,12 @@
 
 package net.mcreator.jackmod.potion;
 
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
+
+import net.mcreator.jackmod.procedures.BleedingOnEffectActiveTickProcedure;
+
 public class BleedingMobEffect extends MobEffect {
 	public BleedingMobEffect() {
 		super(MobEffectCategory.HARMFUL, -65536);
