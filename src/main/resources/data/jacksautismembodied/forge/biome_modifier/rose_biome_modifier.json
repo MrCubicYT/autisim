@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "jacksautismembodied:rose_field",
+  "features": "jacksautismembodied:rose",
+  "step": "vegetal_decoration"
+}

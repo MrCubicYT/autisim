@@ -1,0 +1,7 @@
+{
+  "parent": "jacksautismembodied:custom/gildedbat",
+  "textures": {
+    "0": "jacksautismembodied:block/gilded_blackstone",
+    "particle": "jacksautismembodied:item/cup_tea_black"
+  }
+}

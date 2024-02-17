@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jacksautismembodied:block/gilded_blackstone",
+    "up": "jacksautismembodied:block/err",
+    "north": "jacksautismembodied:block/638076340205799098",
+    "east": "jacksautismembodied:block/stone",
+    "south": "jacksautismembodied:block/err",
+    "west": "jacksautismembodied:block/err",
+    "particle": "jacksautismembodied:block/gilded_blackstone"
+  },
+  "render_type": "solid"
+}

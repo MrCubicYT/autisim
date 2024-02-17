@@ -1,0 +1,9 @@
+{
+  "parent": "jacksautismembodied:custom/stopsign",
+  "textures": {
+    "all": "jacksautismembodied:block/texture",
+    "particle": "jacksautismembodied:block/texture",
+    "0": "jacksautismembodied:block/arson"
+  },
+  "render_type": "solid"
+}

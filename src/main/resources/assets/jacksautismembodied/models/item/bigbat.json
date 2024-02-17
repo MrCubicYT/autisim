@@ -1,0 +1,8 @@
+{
+  "parent": "jacksautismembodied:custom/thiccbat",
+  "textures": {
+    "0": "jacksautismembodied:block/c1264b2eefbbab5272330b4e6a7343b4",
+    "1": "jacksautismembodied:block/638076340205799098",
+    "particle": "jacksautismembodied:item/sugar"
+  }
+}

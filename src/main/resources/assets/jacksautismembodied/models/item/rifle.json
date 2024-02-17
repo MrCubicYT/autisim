@@ -1,0 +1,7 @@
+{
+  "parent": "jacksautismembodied:custom/rifle_idle",
+  "textures": {
+    "0": "jacksautismembodied:block/rifle",
+    "particle": "jacksautismembodied:item/pissbottle"
+  }
+}

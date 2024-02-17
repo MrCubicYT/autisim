@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jacksautismembodied:block/nill"
+    },
+    "facing=east": {
+      "model": "jacksautismembodied:block/nill",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jacksautismembodied:block/nill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jacksautismembodied:block/nill",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "jacksautismembodied:block/poppy",
+    "particle": "jacksautismembodied:block/poppy"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jacksautismembodied:block/stop_sign"
+    },
+    "facing=east": {
+      "model": "jacksautismembodied:block/stop_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jacksautismembodied:block/stop_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jacksautismembodied:block/stop_sign",
+      "y": 270
+    }
+  }
+}

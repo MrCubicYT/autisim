@@ -1,0 +1,20 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Depressed",
+    "icon": "been-getting-into-content-creation-for-pz-recently-and-was-v0-x3jslks9lloa1.png",
+    "color": {
+      "value": -6786970,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onExpired": {
+      "name": "DepressedEffectExpires"
+    }
+  }
+}

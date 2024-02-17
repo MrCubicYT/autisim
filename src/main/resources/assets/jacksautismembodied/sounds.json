@@ -1,0 +1,158 @@
+{
+  "dgrave": {
+    "subtitle": "subtitles.dgrave",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:a1",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:b1",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:c1",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:d1",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:e1",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:f1",
+        "stream": false
+      }
+    ]
+  },
+  "peehurt": {
+    "subtitle": "subtitles.peehurt",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:a",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:b",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:c",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:d",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:e",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:f",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:g",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:h",
+        "stream": false
+      }
+    ]
+  },
+  "pee": {
+    "subtitle": "subtitles.pee",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:pee1",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:pee2",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:pee3",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:pee4",
+        "stream": false
+      }
+    ]
+  },
+  "ded": {
+    "subtitle": "subtitles.ded",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:kill",
+        "stream": false
+      }
+    ]
+  },
+  "die": {
+    "subtitle": "subtitles.die",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:img_3812",
+        "stream": false
+      }
+    ]
+  },
+  "kevins": {
+    "subtitle": "subtitles.kevins",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:img_3821",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:img_3826",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:img_3827",
+        "stream": false
+      }
+    ]
+  },
+  "tools.thiccbat.hit": {
+    "subtitle": "subtitles.tools.thiccbat.hit",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:bonk",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:hit_2",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:hit_3",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:hit_4",
+        "stream": false
+      },
+      {
+        "name": "jacksautismembodied:hit_5",
+        "stream": false
+      }
+    ]
+  },
+  "shoot": {
+    "subtitle": "subtitles.shoot",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:shoot2",
+        "stream": false
+      }
+    ]
+  }
+}

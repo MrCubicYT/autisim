@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "jacksautismembodied:ancient",
+    "jacksautismembodied:voids",
+    "jacksautismembodied:fields",
+    "jacksautismembodied:fallback"
+  ],
+  "spawners": {
+    "type": "jacksautismembodied:watcher",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

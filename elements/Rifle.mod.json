@@ -1,0 +1,40 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "pissbottle",
+    "customModelName": "rifle_idle:default",
+    "name": "Rifle",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.ARROW"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "RifleRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.ARROW"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

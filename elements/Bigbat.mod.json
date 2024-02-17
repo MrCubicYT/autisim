@@ -1,0 +1,35 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "texture": "sugar",
+    "customModelName": "thiccbat:default",
+    "name": "Thicc Bat",
+    "specialInfo": [
+      "§5Kareem sized stick"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 0.0,
+    "attackSpeed": 0.5,
+    "enchantability": 20,
+    "damageVsEntity": 10.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Shockwave"
+    },
+    "onEntityHitWith": {
+      "name": "ThiccBatHitSound"
+    }
+  }
+}

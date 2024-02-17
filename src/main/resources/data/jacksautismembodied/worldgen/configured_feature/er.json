@@ -1,0 +1,24 @@
+{
+  "type": "jacksautismembodied:er",
+  "config": {
+    "target": {
+      "Name": "minecraft:deepslate",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "state": {
+      "Name": "jacksautismembodied:nill",
+      "Properties": {
+        "facing": "north"
+      }
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 7
+      }
+    }
+  }
+}

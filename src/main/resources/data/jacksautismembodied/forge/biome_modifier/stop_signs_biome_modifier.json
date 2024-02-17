@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "jacksautismembodied:stop_signs",
+  "step": "surface_structures"
+}

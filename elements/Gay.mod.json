@@ -1,0 +1,26 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Gay",
+    "icon": "moodle_icon_drunk.png",
+    "color": {
+      "value": -6736897,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "GayEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "GayOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "GayEffectExpires"
+    }
+  }
+}

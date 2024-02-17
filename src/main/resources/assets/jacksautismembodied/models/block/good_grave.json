@@ -1,0 +1,9 @@
+{
+  "parent": "jacksautismembodied:custom/goodgrave",
+  "textures": {
+    "all": "jacksautismembodied:block/stone",
+    "particle": "jacksautismembodied:block/stone",
+    "missing": "jacksautismembodied:block/stone"
+  },
+  "render_type": "solid"
+}

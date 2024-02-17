@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "plains",
+  "spawners": {
+    "type": "jacksautismembodied:kevins",
+    "weight": 17,
+    "minCount": 2,
+    "maxCount": 10
+  }
+}

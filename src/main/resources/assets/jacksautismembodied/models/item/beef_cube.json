@@ -1,0 +1,7 @@
+{
+  "parent": "jacksautismembodied:custom/beeforb",
+  "textures": {
+    "0": "jacksautismembodied:block/beef",
+    "particle": "jacksautismembodied:item/cup_tea_black"
+  }
+}
