@@ -56,6 +56,24 @@ public class STARTProcedure {
 				}
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(JacksautismembodiedModMobEffects.GAY.get(), 3600, 1, false, false));
+			} else if (Math.random() < 0.5) {
+				if (Math.random() < 0.5) {
+					{
+						double _setval = 1;
+						entity.getCapability(JacksautismembodiedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.lactated = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				} else {
+					{
+						double _setval = 2;
+						entity.getCapability(JacksautismembodiedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.lactated = _setval;
+							capability.syncPlayerVariables(entity);
+						});
+					}
+				}
 			}
 		}
 	}

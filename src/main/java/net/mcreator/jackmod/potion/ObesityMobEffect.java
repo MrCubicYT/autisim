@@ -1,16 +1,18 @@
 
 package net.mcreator.jackmod.potion;
 
-import net.minecraft.world.entity.ai.attributes.AttributeMap;
+import net.minecraftforge.client.extensions.common.IClientMobEffectExtensions;
+
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
-import net.mcreator.jackmod.procedures.ObesityEffectExpiresProcedure;
+import net.mcreator.jackmod.procedures.ObesityOnEffectActiveTickProcedure;
 
 public class ObesityMobEffect extends MobEffect {
 	public ObesityMobEffect() {
-		super(MobEffectCategory.HARMFUL, -13108);
+		super(MobEffectCategory.HARMFUL, -7439543);
 	}
 
 	@Override
@@ -24,13 +26,22 @@ public class ObesityMobEffect extends MobEffect {
 	}
 
 	@Override
-	public void removeAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
-		super.removeAttributeModifiers(entity, attributeMap, amplifier);
-		ObesityEffectExpiresProcedure.execute(entity.level(), entity);
+	public void applyEffectTick(LivingEntity entity, int amplifier) {
+		ObesityOnEffectActiveTickProcedure.execute(entity.level(), entity);
 	}
 
 	@Override
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
+	}
+
+	@Override
+	public void initializeClient(java.util.function.Consumer<IClientMobEffectExtensions> consumer) {
+		consumer.accept(new IClientMobEffectExtensions() {
+			@Override
+			public boolean isVisibleInGui(MobEffectInstance effect) {
+				return false;
+			}
+		});
 	}
 }

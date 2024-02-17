@@ -15,11 +15,15 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.jackmod.block.ZfightblockBlock;
+import net.mcreator.jackmod.block.TiledSandstoneBlock;
 import net.mcreator.jackmod.block.StopSignBlock;
+import net.mcreator.jackmod.block.StonePathBlock;
+import net.mcreator.jackmod.block.SpringPadBlock;
 import net.mcreator.jackmod.block.RoseBlock;
 import net.mcreator.jackmod.block.NILLBlock;
 import net.mcreator.jackmod.block.GoofyOfferingBlock;
 import net.mcreator.jackmod.block.GoodGraveBlock;
+import net.mcreator.jackmod.block.EtchedSandstoneBlock;
 import net.mcreator.jackmod.block.BadGraveBlock;
 import net.mcreator.jackmod.JacksautismembodiedMod;
 
@@ -32,6 +36,10 @@ public class JacksautismembodiedModBlocks {
 	public static final RegistryObject<Block> NILL = REGISTRY.register("nill", () -> new NILLBlock());
 	public static final RegistryObject<Block> ROSE = REGISTRY.register("rose", () -> new RoseBlock());
 	public static final RegistryObject<Block> ZFIGHTBLOCK = REGISTRY.register("zfightblock", () -> new ZfightblockBlock());
+	public static final RegistryObject<Block> SPRING_PAD = REGISTRY.register("spring_pad", () -> new SpringPadBlock());
+	public static final RegistryObject<Block> STONE_PATH = REGISTRY.register("stone_path", () -> new StonePathBlock());
+	public static final RegistryObject<Block> TILED_SANDSTONE = REGISTRY.register("tiled_sandstone", () -> new TiledSandstoneBlock());
+	public static final RegistryObject<Block> ETCHED_SANDSTONE = REGISTRY.register("etched_sandstone", () -> new EtchedSandstoneBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

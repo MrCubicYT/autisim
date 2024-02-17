@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jacksautismembodied:block/sand",
+    "up": "jacksautismembodied:block/sand",
+    "north": "jacksautismembodied:block/sand",
+    "east": "jacksautismembodied:block/sand",
+    "south": "jacksautismembodied:block/sand",
+    "west": "jacksautismembodied:block/sand",
+    "particle": "jacksautismembodied:block/sand"
+  },
+  "render_type": "solid"
+}

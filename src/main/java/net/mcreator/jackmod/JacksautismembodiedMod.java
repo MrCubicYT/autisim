@@ -37,6 +37,7 @@ import net.mcreator.jackmod.init.JacksautismembodiedModItems;
 import net.mcreator.jackmod.init.JacksautismembodiedModFeatures;
 import net.mcreator.jackmod.init.JacksautismembodiedModEntities;
 import net.mcreator.jackmod.init.JacksautismembodiedModBlocks;
+import net.mcreator.jackmod.init.JacksautismembodiedModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -57,7 +58,7 @@ public class JacksautismembodiedMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		JacksautismembodiedModSounds.REGISTRY.register(bus);
 		JacksautismembodiedModBlocks.REGISTRY.register(bus);
-
+		JacksautismembodiedModBlockEntities.REGISTRY.register(bus);
 		JacksautismembodiedModItems.REGISTRY.register(bus);
 		JacksautismembodiedModEntities.REGISTRY.register(bus);
 

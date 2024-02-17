@@ -13,19 +13,25 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.jackmod.item.WoodenKnifeItem;
 import net.mcreator.jackmod.item.UnoReverseItem;
 import net.mcreator.jackmod.item.UnfilteredBottleOfPissItem;
+import net.mcreator.jackmod.item.StoneKnifeItem;
 import net.mcreator.jackmod.item.SecondChanceItem;
 import net.mcreator.jackmod.item.RifleItem;
 import net.mcreator.jackmod.item.PUREPISSItem;
+import net.mcreator.jackmod.item.ObsidianKnifesItem;
+import net.mcreator.jackmod.item.IronKnifeItem;
 import net.mcreator.jackmod.item.HealthPickupItem;
 import net.mcreator.jackmod.item.HateTrinketItem;
 import net.mcreator.jackmod.item.GildedBatItem;
+import net.mcreator.jackmod.item.DiamondKnifeItem;
 import net.mcreator.jackmod.item.CookedItem;
 import net.mcreator.jackmod.item.CocaineItem;
 import net.mcreator.jackmod.item.ChristmasItem;
 import net.mcreator.jackmod.item.BigbatItem;
 import net.mcreator.jackmod.item.BeefCubeItem;
+import net.mcreator.jackmod.block.display.SpringPadDisplayItem;
 import net.mcreator.jackmod.JacksautismembodiedMod;
 
 public class JacksautismembodiedModItems {
@@ -53,6 +59,15 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> ZFIGHTBLOCK = block(JacksautismembodiedModBlocks.ZFIGHTBLOCK);
 	public static final RegistryObject<Item> HEALTH_PICKUP = REGISTRY.register("health_pickup", () -> new HealthPickupItem());
 	public static final RegistryObject<Item> CHRISTMAS = REGISTRY.register("christmas", () -> new ChristmasItem());
+	public static final RegistryObject<Item> SPRING_PAD = REGISTRY.register(JacksautismembodiedModBlocks.SPRING_PAD.getId().getPath(), () -> new SpringPadDisplayItem(JacksautismembodiedModBlocks.SPRING_PAD.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_PATH = block(JacksautismembodiedModBlocks.STONE_PATH);
+	public static final RegistryObject<Item> TILED_SANDSTONE = block(JacksautismembodiedModBlocks.TILED_SANDSTONE);
+	public static final RegistryObject<Item> ETCHED_SANDSTONE = block(JacksautismembodiedModBlocks.ETCHED_SANDSTONE);
+	public static final RegistryObject<Item> WOODEN_KNIFE = REGISTRY.register("wooden_knife", () -> new WoodenKnifeItem());
+	public static final RegistryObject<Item> STONE_KNIFE = REGISTRY.register("stone_knife", () -> new StoneKnifeItem());
+	public static final RegistryObject<Item> IRON_KNIFE = REGISTRY.register("iron_knife", () -> new IronKnifeItem());
+	public static final RegistryObject<Item> DIAMOND_KNIFE = REGISTRY.register("diamond_knife", () -> new DiamondKnifeItem());
+	public static final RegistryObject<Item> OBSIDIAN_KNIFES = REGISTRY.register("obsidian_knifes", () -> new ObsidianKnifesItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

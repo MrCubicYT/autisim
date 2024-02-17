@@ -5,16 +5,16 @@
     "effectName": "Obesity",
     "icon": "obesity.png",
     "color": {
-      "value": -13108,
+      "value": -7439543,
       "falpha": 0.0
     },
     "isInstant": true,
     "isBad": true,
     "isBenefitical": false,
     "renderStatusInInventory": true,
-    "renderStatusInHUD": true,
-    "onExpired": {
-      "name": "ObesityEffectExpires"
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "ObesityOnEffectActiveTick"
     }
   }
 }
