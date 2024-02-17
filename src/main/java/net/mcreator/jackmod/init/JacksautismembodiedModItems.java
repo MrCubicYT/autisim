@@ -18,10 +18,12 @@ import net.mcreator.jackmod.item.UnfilteredBottleOfPissItem;
 import net.mcreator.jackmod.item.SecondChanceItem;
 import net.mcreator.jackmod.item.RifleItem;
 import net.mcreator.jackmod.item.PUREPISSItem;
+import net.mcreator.jackmod.item.HealthPickupItem;
 import net.mcreator.jackmod.item.HateTrinketItem;
 import net.mcreator.jackmod.item.GildedBatItem;
 import net.mcreator.jackmod.item.CookedItem;
 import net.mcreator.jackmod.item.CocaineItem;
+import net.mcreator.jackmod.item.ChristmasItem;
 import net.mcreator.jackmod.item.BigbatItem;
 import net.mcreator.jackmod.item.BeefCubeItem;
 import net.mcreator.jackmod.JacksautismembodiedMod;
@@ -49,6 +51,8 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> NILL = block(JacksautismembodiedModBlocks.NILL);
 	public static final RegistryObject<Item> ROSE = block(JacksautismembodiedModBlocks.ROSE);
 	public static final RegistryObject<Item> ZFIGHTBLOCK = block(JacksautismembodiedModBlocks.ZFIGHTBLOCK);
+	public static final RegistryObject<Item> HEALTH_PICKUP = REGISTRY.register("health_pickup", () -> new HealthPickupItem());
+	public static final RegistryObject<Item> CHRISTMAS = REGISTRY.register("christmas", () -> new ChristmasItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

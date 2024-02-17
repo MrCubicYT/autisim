@@ -1838,6 +1838,103 @@
         ]
       },
       "path": "~/Backrooms"
+    },
+    {
+      "name": "HealthPickupItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pickup_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/HealthPickupItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Christmas",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/ChristmasItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/christmas.json"
+        ]
+      }
+    },
+    {
+      "name": "DIES",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/DIESProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealthPickup",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pickup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/health_pickup.json",
+          "src/main/java/net/mcreator/jackmod/item/HealthPickupItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HealthPickupPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pickup_property_value_provider",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/HealthPickupPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [
@@ -2008,7 +2105,6 @@
       "block.jacksautismembodied.rose": "Rose",
       "biome.jacksautismembodied.fallback": "FALLBACK",
       "entity.jacksautismembodied.piss_baby": "Piss Baby",
-      "biome.jacksautismembodied.unstable": "Unstable",
       "subtitles.dgrave": "Stupid grave lol",
       "item.jackmod.piss_baby_spawn_egg": "Piss Baby Spawn Egg",
       "advancements.dinner_is_served.descr": "Cook a beef cube",
@@ -2018,7 +2114,6 @@
       "subtitles.shoot": "RifleShoot",
       "advancements.dinner_is_served.title": "Dinner Is Served",
       "advancements.no.title": "The road to nowhere",
-      "block.jacksautismembodied.zfightblock": "Grass.",
       "item.jacksautismembodied.hate_trinket": "Hate Trinket",
       "item.jacksautismembodied.second_chance": "Second Chance",
       "subtitles.pee": "Piss baby really needs to piss",
@@ -2113,11 +2208,11 @@
         "children": []
       },
       {
-        "name": "Effects",
+        "name": "Backrooms",
         "children": []
       },
       {
-        "name": "Backrooms",
+        "name": "Effects",
         "children": []
       }
     ]
