@@ -2457,6 +2457,37 @@
           "src/main/resources/data/jacksautismembodied/forge/biome_modifier/l_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "DSASS",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/DSASSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2776,6 +2807,10 @@
       {
         "name": "Effects",
         "children": []
+      },
+      {
+        "name": "STYLEZ",
+        "children": []
       }
     ]
   },
@@ -2794,9 +2829,11 @@
     "dependants": [],
     "mcreatorDependencies": [
       "kleidersplayerrenderer",
+      "world_edit",
       "pehkui",
       "curios_api",
       "geckolib",
+      "huge_structure_blocks",
       "playeranimator"
     ],
     "currentGenerator": "forge-1.20.1",

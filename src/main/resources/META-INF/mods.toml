@@ -27,6 +27,12 @@ description="As the name suggests..."
     ordering="NONE"
     side="BOTH"
 [[dependencies.jacksautismembodied]]
+    modId="world_edit"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jacksautismembodied]]
     modId="pehkui"
     mandatory=false
     versionRange="[0,)"
@@ -40,6 +46,12 @@ description="As the name suggests..."
     side="BOTH"
 [[dependencies.jacksautismembodied]]
     modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jacksautismembodied]]
+    modId="huge_structure_blocks"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
