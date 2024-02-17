@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Dream Sweet In C Major",
+    "texture": "asdsadsad",
+    "description": "Dream sweet in C major - Tally hall",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:dream"
+    },
+    "lengthInTicks": 8400,
+    "analogOutput": 0
+  }
+}

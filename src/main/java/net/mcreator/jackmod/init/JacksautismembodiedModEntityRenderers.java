@@ -18,6 +18,7 @@ import net.mcreator.jackmod.client.renderer.PissBabyRenderer;
 import net.mcreator.jackmod.client.renderer.KevinsRenderer;
 import net.mcreator.jackmod.client.renderer.KabeemRenderer;
 import net.mcreator.jackmod.client.renderer.HumanRenderer;
+import net.mcreator.jackmod.client.renderer.FleshBallRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class JacksautismembodiedModEntityRenderers {
@@ -32,5 +33,6 @@ public class JacksautismembodiedModEntityRenderers {
 		event.registerEntityRenderer(JacksautismembodiedModEntities.KABEEM.get(), KabeemRenderer::new);
 		event.registerEntityRenderer(JacksautismembodiedModEntities.RUBBER_DUCK.get(), RubberDuckRenderer::new);
 		event.registerEntityRenderer(JacksautismembodiedModEntities.RUN.get(), RUNRenderer::new);
+		event.registerEntityRenderer(JacksautismembodiedModEntities.FLESH_BALL.get(), FleshBallRenderer::new);
 	}
 }

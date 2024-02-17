@@ -12,6 +12,6 @@ public class HealthPickupItemInInventoryTickProcedure {
 			return;
 		itemstack.shrink(1);
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 20, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 1, false, false));
 	}
 }

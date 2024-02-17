@@ -15,6 +15,7 @@ import net.mcreator.jackmod.client.model.ModelWanderer;
 import net.mcreator.jackmod.client.model.ModelSecondChance;
 import net.mcreator.jackmod.client.model.ModelRubberDuck;
 import net.mcreator.jackmod.client.model.ModelPissBaby;
+import net.mcreator.jackmod.client.model.ModelFleshBall;
 import net.mcreator.jackmod.client.model.ModelEYE;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -26,6 +27,7 @@ public class JacksautismembodiedModModels {
 		event.registerLayerDefinition(ModelEYE.LAYER_LOCATION, ModelEYE::createBodyLayer);
 		event.registerLayerDefinition(ModelPissBaby.LAYER_LOCATION, ModelPissBaby::createBodyLayer);
 		event.registerLayerDefinition(ModelRubberDuck.LAYER_LOCATION, ModelRubberDuck::createBodyLayer);
+		event.registerLayerDefinition(ModelFleshBall.LAYER_LOCATION, ModelFleshBall::createBodyLayer);
 		event.registerLayerDefinition(Modelstabb.LAYER_LOCATION, Modelstabb::createBodyLayer);
 		event.registerLayerDefinition(Modelbingchilling.LAYER_LOCATION, Modelbingchilling::createBodyLayer);
 	}

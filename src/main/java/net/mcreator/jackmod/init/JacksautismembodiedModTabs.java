@@ -52,6 +52,7 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.WATCHER_SPAWN_EGG.get());
 			tabData.accept(JacksautismembodiedModItems.KABEEM_SPAWN_EGG.get());
 			tabData.accept(JacksautismembodiedModItems.RUBBER_DUCK_SPAWN_EGG.get());
+			tabData.accept(JacksautismembodiedModItems.FLESH_BALL_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -64,12 +65,15 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.IRON_KNIFE.get());
 			tabData.accept(JacksautismembodiedModItems.DIAMOND_KNIFE.get());
 			tabData.accept(JacksautismembodiedModItems.OBSIDIAN_KNIFES.get());
+			tabData.accept(JacksautismembodiedModItems.BANANA_MAN.get());
+			tabData.accept(JacksautismembodiedModItems.DREAM_SWEET_IN_C_MAJOR.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(JacksautismembodiedModItems.BEEF_CUBE.get());
 			tabData.accept(JacksautismembodiedModItems.COOKED.get());
 			tabData.accept(JacksautismembodiedModItems.KREEM.get());
+			tabData.accept(JacksautismembodiedModItems.STOMACH.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

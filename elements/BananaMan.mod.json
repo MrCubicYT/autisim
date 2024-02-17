@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Banana Man",
+    "texture": "music_disc_13",
+    "description": "Banana man - Tally hall",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:banana"
+    },
+    "lengthInTicks": 5620,
+    "analogOutput": 0
+  }
+}

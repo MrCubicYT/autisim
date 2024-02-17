@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.jackmod.world.features.plants.RoseFeature;
 import net.mcreator.jackmod.world.features.ores.ZfightblockFeature;
+import net.mcreator.jackmod.world.features.SFeature;
 import net.mcreator.jackmod.world.features.LFeature;
 import net.mcreator.jackmod.world.features.KFeature;
 import net.mcreator.jackmod.world.features.JFeature;
@@ -24,9 +25,11 @@ import net.mcreator.jackmod.world.features.IFeature;
 import net.mcreator.jackmod.world.features.HFeature;
 import net.mcreator.jackmod.world.features.FORTNITEFeature;
 import net.mcreator.jackmod.world.features.ERFeature;
+import net.mcreator.jackmod.world.features.DsAsFeature;
 import net.mcreator.jackmod.world.features.CreepFeature;
 import net.mcreator.jackmod.world.features.CFeature;
 import net.mcreator.jackmod.world.features.BFeature;
+import net.mcreator.jackmod.world.features.AsdFeature;
 import net.mcreator.jackmod.world.features.AFeature;
 import net.mcreator.jackmod.JacksautismembodiedMod;
 
@@ -46,4 +49,7 @@ public class JacksautismembodiedModFeatures {
 	public static final RegistryObject<Feature<?>> K = REGISTRY.register("k", KFeature::new);
 	public static final RegistryObject<Feature<?>> L = REGISTRY.register("l", LFeature::new);
 	public static final RegistryObject<Feature<?>> FORTNITE = REGISTRY.register("fortnite", FORTNITEFeature::new);
+	public static final RegistryObject<Feature<?>> S = REGISTRY.register("s", SFeature::new);
+	public static final RegistryObject<Feature<?>> ASD = REGISTRY.register("asd", AsdFeature::new);
+	public static final RegistryObject<Feature<?>> DS_AS = REGISTRY.register("ds_as", DsAsFeature::new);
 }

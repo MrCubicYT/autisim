@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "jacksautismembodied:appendix"
+    },
+    "title": {
+      "translate": "advancements.appendix_master.title"
+    },
+    "description": {
+      "translate": "advancements.appendix_master.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "appendix_master": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jacksautismembodied:appendix"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jacksautismembodied:dinner_is_served"
+}

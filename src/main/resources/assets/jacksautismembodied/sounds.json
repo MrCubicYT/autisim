@@ -163,5 +163,23 @@
         "stream": false
       }
     ]
+  },
+  "banana": {
+    "subtitle": "subtitles.banana",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:banana_man",
+        "stream": true
+      }
+    ]
+  },
+  "dream": {
+    "subtitle": "subtitles.dream",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:y2mate.is-dream-sweet-in-sea-major-uxym7vhu0uu-192k-1708205797",
+        "stream": true
+      }
+    ]
   }
 }
