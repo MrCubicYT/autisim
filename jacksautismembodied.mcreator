@@ -637,6 +637,20 @@
       "path": "~/Procedures"
     },
     {
+      "name": "Obesity",
+      "type": "potioneffect",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obesity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/potion/ObesityMobEffect.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
       "name": "POG",
       "type": "procedure",
       "sortid": 45,
@@ -1879,6 +1893,48 @@
       "path": "~/Backrooms"
     },
     {
+      "name": "SpringPad",
+      "type": "animatedblock",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_pad",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/block/display/SpringPadDisplayItem.java",
+          "src/main/resources/assets/jacksautismembodied/blockstates/spring_pad.json",
+          "src/main/java/net/mcreator/jackmod/block/entity/SpringPadTileEntity.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/spring_pad.json",
+          "src/main/java/net/mcreator/jackmod/block/model/SpringPadBlockModel.java",
+          "src/main/java/net/mcreator/jackmod/block/model/SpringPadDisplayModel.java",
+          "src/main/java/net/mcreator/jackmod/block/SpringPadBlock.java",
+          "src/main/resources/assets/jacksautismembodied/models/custom/spring_pad_particle.json",
+          "src/main/java/net/mcreator/jackmod/block/renderer/SpringPadTileRenderer.java",
+          "src/main/java/net/mcreator/jackmod/block/renderer/SpringPadDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/CoolThings"
+    },
+    {
+      "name": "Farted",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/FartedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "SpringPadEntityWalksOnTheBlock",
       "type": "procedure",
       "sortid": 101,
@@ -1915,195 +1971,76 @@
       "path": "~/CoolThings"
     },
     {
-      "name": "SpringPad",
-      "type": "animatedblock",
-      "sortid": 102,
+      "name": "DeadlyDiarrhoea",
+      "type": "potioneffect",
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "spring_pad",
+      "registry_name": "deadly_diarrhoea",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jackmod/block/display/SpringPadDisplayItem.java",
-          "src/main/resources/assets/jacksautismembodied/blockstates/spring_pad.json",
-          "src/main/java/net/mcreator/jackmod/block/entity/SpringPadTileEntity.java",
-          "src/main/resources/assets/jacksautismembodied/models/item/spring_pad.json",
-          "src/main/java/net/mcreator/jackmod/block/model/SpringPadBlockModel.java",
-          "src/main/java/net/mcreator/jackmod/block/model/SpringPadDisplayModel.java",
-          "src/main/java/net/mcreator/jackmod/block/SpringPadBlock.java",
-          "src/main/resources/assets/jacksautismembodied/models/custom/spring_pad_particle.json",
-          "src/main/java/net/mcreator/jackmod/block/renderer/SpringPadTileRenderer.java",
-          "src/main/java/net/mcreator/jackmod/block/renderer/SpringPadDisplayItemRenderer.java"
-        ]
-      },
-      "path": "~/CoolThings"
-    },
-    {
-      "name": "StonePath",
-      "type": "block",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_path",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/block/StonePathBlock.java",
-          "src/main/resources/assets/jacksautismembodied/models/block/stone_path.json",
-          "src/main/resources/assets/jacksautismembodied/models/item/stone_path.json",
-          "src/main/resources/assets/jacksautismembodied/blockstates/stone_path.json"
+          "src/main/java/net/mcreator/jackmod/potion/DeadlyDiarrhoeaMobEffect.java"
         ]
       }
     },
     {
-      "name": "Gild",
-      "type": "recipe",
-      "sortid": 104,
+      "name": "Magic",
+      "type": "procedure",
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gild",
+      "registry_name": "magic",
       "metadata": {
         "files": [
-          "src/main/resources/data/jacksautismembodied/recipes/gild.json"
+          "src/main/java/net/mcreator/jackmod/procedures/MagicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     },
     {
-      "name": "StonePathR",
-      "type": "recipe",
-      "sortid": 105,
+      "name": "ObesityOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stone_path_r",
+      "registry_name": "obesity_on_effect_active_tick",
       "metadata": {
         "files": [
-          "src/main/resources/data/jacksautismembodied/recipes/stone_path_r.json"
+          "src/main/java/net/mcreator/jackmod/procedures/ObesityOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     },
     {
-      "name": "TiledSandstone",
-      "type": "block",
-      "sortid": 106,
+      "name": "Magic2",
+      "type": "procedure",
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tiled_sandstone",
+      "registry_name": "magic_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jackmod/block/TiledSandstoneBlock.java",
-          "src/main/resources/assets/jacksautismembodied/blockstates/tiled_sandstone.json",
-          "src/main/resources/assets/jacksautismembodied/models/block/tiled_sandstone.json",
-          "src/main/resources/assets/jacksautismembodied/models/item/tiled_sandstone.json"
-        ]
-      }
-    },
-    {
-      "name": "EtchedSandstone",
-      "type": "block",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "etched_sandstone",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/jacksautismembodied/models/item/etched_sandstone.json",
-          "src/main/resources/assets/jacksautismembodied/blockstates/etched_sandstone.json",
-          "src/main/resources/assets/jacksautismembodied/models/block/etched_sandstone.json",
-          "src/main/java/net/mcreator/jackmod/block/EtchedSandstoneBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "AS",
-      "type": "recipe",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "as",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/jacksautismembodied/recipes/as.json"
-        ]
-      }
-    },
-    {
-      "name": "BS",
-      "type": "recipe",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/jacksautismembodied/recipes/bs.json"
-        ]
-      }
-    },
-    {
-      "name": "WoodenKnife",
-      "type": "tool",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wooden_knife",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/item/WoodenKnifeItem.java",
-          "src/main/resources/assets/jacksautismembodied/models/item/wooden_knife.json"
-        ]
-      }
-    },
-    {
-      "name": "StoneKnife",
-      "type": "tool",
-      "sortid": 111,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_knife",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/item/StoneKnifeItem.java",
-          "src/main/resources/assets/jacksautismembodied/models/item/stone_knife.json"
-        ]
-      }
-    },
-    {
-      "name": "IronKnife",
-      "type": "tool",
-      "sortid": 112,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iron_knife",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/jacksautismembodied/models/item/iron_knife.json",
-          "src/main/java/net/mcreator/jackmod/item/IronKnifeItem.java"
-        ]
-      }
-    },
-    {
-      "name": "DiamondKnife",
-      "type": "tool",
-      "sortid": 113,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "diamond_knife",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/jacksautismembodied/models/item/diamond_knife.json",
-          "src/main/java/net/mcreator/jackmod/item/DiamondKnifeItem.java"
-        ]
-      }
-    },
-    {
-      "name": "ObsidianKnifes",
-      "type": "tool",
-      "sortid": 114,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidian_knifes",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/jacksautismembodied/models/item/obsidian_knifes.json",
-          "src/main/java/net/mcreator/jackmod/item/ObsidianKnifesItem.java"
+          "src/main/java/net/mcreator/jackmod/procedures/Magic2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     },
@@ -2127,6 +2064,56 @@
       }
     },
     {
+      "name": "DiamondKnife",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/diamond_knife.json",
+          "src/main/java/net/mcreator/jackmod/item/DiamondKnifeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EtchedSandstone",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etched_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/etched_sandstone.json",
+          "src/main/resources/assets/jacksautismembodied/blockstates/etched_sandstone.json",
+          "src/main/resources/assets/jacksautismembodied/models/block/etched_sandstone.json",
+          "src/main/java/net/mcreator/jackmod/block/EtchedSandstoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Nerd",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nerd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/NerdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
       "name": "Bleeding",
       "type": "potioneffect",
       "sortid": 116,
@@ -2136,6 +2123,129 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jackmod/potion/BleedingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "StoneKnife",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/StoneKnifeItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/stone_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "BS",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/bs.json"
+        ]
+      }
+    },
+    {
+      "name": "AS",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "as",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/as.json"
+        ]
+      }
+    },
+    {
+      "name": "ViolentDiarrhoea",
+      "type": "potioneffect",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violent_diarrhoea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/potion/ViolentDiarrhoeaMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "TiledSandstone",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiled_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/block/TiledSandstoneBlock.java",
+          "src/main/resources/assets/jacksautismembodied/blockstates/tiled_sandstone.json",
+          "src/main/resources/assets/jacksautismembodied/models/block/tiled_sandstone.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/tiled_sandstone.json"
+        ]
+      }
+    },
+    {
+      "name": "StonePathR",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_path_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/stone_path_r.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianKnifes",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_knifes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/obsidian_knifes.json",
+          "src/main/java/net/mcreator/jackmod/item/ObsidianKnifesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Gild",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gild",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/gild.json"
+        ]
+      }
+    },
+    {
+      "name": "IronKnife",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/iron_knife.json",
+          "src/main/java/net/mcreator/jackmod/item/IronKnifeItem.java"
         ]
       }
     },
@@ -2175,141 +2285,32 @@
       }
     },
     {
-      "name": "ViolentDiarrhoea",
-      "type": "potioneffect",
-      "sortid": 118,
+      "name": "StonePath",
+      "type": "block",
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "violent_diarrhoea",
+      "registry_name": "stone_path",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jackmod/potion/ViolentDiarrhoeaMobEffect.java"
+          "src/main/java/net/mcreator/jackmod/block/StonePathBlock.java",
+          "src/main/resources/assets/jacksautismembodied/models/block/stone_path.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/stone_path.json",
+          "src/main/resources/assets/jacksautismembodied/blockstates/stone_path.json"
         ]
       }
     },
     {
-      "name": "DeadlyDiarrhoea",
-      "type": "potioneffect",
-      "sortid": 119,
+      "name": "WoodenKnife",
+      "type": "tool",
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "deadly_diarrhoea",
+      "registry_name": "wooden_knife",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/jackmod/potion/DeadlyDiarrhoeaMobEffect.java"
-        ]
-      }
-    },
-    {
-      "name": "Nerd",
-      "type": "procedure",
-      "sortid": 120,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nerd",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/procedures/NerdProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "ObesityOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 121,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obesity_on_effect_active_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/procedures/ObesityOnEffectActiveTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Obesity",
-      "type": "potioneffect",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obesity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/potion/ObesityMobEffect.java"
-        ]
-      }
-    },
-    {
-      "name": "Farted",
-      "type": "procedure",
-      "sortid": 123,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farted",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/procedures/FartedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Magic",
-      "type": "procedure",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magic",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/procedures/MagicProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Magic2",
-      "type": "procedure",
-      "sortid": 125,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magic_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/jackmod/procedures/Magic2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/java/net/mcreator/jackmod/item/WoodenKnifeItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/wooden_knife.json"
         ]
       }
     }
@@ -2376,13 +2377,13 @@
       "value": "0"
     },
     {
-      "name": "lactose",
+      "name": "lactated",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
     },
     {
-      "name": "lactated",
+      "name": "lactose",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -2615,15 +2616,15 @@
         "children": []
       },
       {
+        "name": "CoolThings",
+        "children": []
+      },
+      {
         "name": "Backrooms",
         "children": []
       },
       {
         "name": "Effects",
-        "children": []
-      },
-      {
-        "name": "CoolThings",
         "children": []
       }
     ]
