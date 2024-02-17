@@ -388,8 +388,7 @@
         "files": [
           "src/main/java/net/mcreator/jackmod/potion/DepressedMobEffect.java"
         ]
-      },
-      "path": "~/Effects"
+      }
     },
     {
       "name": "CocainePlayerFinishesUsingItem",
@@ -493,8 +492,7 @@
         "files": [
           "src/main/java/net/mcreator/jackmod/potion/GayMobEffect.java"
         ]
-      },
-      "path": "~/Effects"
+      }
     },
     {
       "name": "GayEffectExpires",
@@ -2488,6 +2486,66 @@
           }
         ]
       }
+    },
+    {
+      "name": "HURTPEOPLE",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hurtpeople",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/HURTPEOPLEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KreemItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kreem_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/KreemItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kreem",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kreem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/KreemItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/kreem.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2561,6 +2619,12 @@
       "name": "lactose",
       "type": "number",
       "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Syle",
+      "type": "number",
+      "scope": "player_lifetime",
       "value": "0"
     }
   ],
@@ -2678,6 +2742,7 @@
       "advancements.dinner_is_served.descr": "Cook a beef cube",
       "block.jacksautismembodied.spring_pad": "Spring Pad",
       "death.attack.dieo": "%s Shat themselves",
+      "death.attack.style": "%s was styled on to hard.",
       "subtitles.thiccbathit1": "Thicc Bat Hits",
       "item.jacksautismembodied.wooden_knife": "Wooden Knife",
       "advancements.no.descr": "Is their any exit?",
@@ -2730,6 +2795,7 @@
       "block.jacksautismembodied.goofy_offering": "Goofy Offering",
       "block.jackmod.good_grave": "Good Grave",
       "biome.jacksautismembodied.rose_field": "Rose Field",
+      "item.jacksautismembodied.kreem": "Kreem",
       "item.jacksautismembodied.bigbat": "Thicc Bat",
       "block.jacksautismembodied.stone_path": "Stone Path",
       "key.jacksautismembodied.g": "G",

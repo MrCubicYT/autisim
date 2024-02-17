@@ -1,0 +1,7 @@
+{
+  "_fv": 47,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"18\" y=\"-66\"><field name=\"trigger\">entity_pre_hurt</field><next><block type=\"entity_deal_custom_damage\"><value name=\"damage_number\"><block type=\"variables_get_number\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"true\" has_entity=\"true\"></mutation><field name=\"VAR\">global:Syle</field><value name=\"entity\"><block type=\"source_entity_from_deps\"></block></value></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"localization_text\"><block type=\"text\"><field name=\"TEXT\">style</field></block></value></block></next></block><block type=\"math_number\" x=\"117\" y=\"144\"><field name=\"NUM\">1</field></block><block type=\"controls_if\" x=\"424\" y=\"147\"><comment pinned=\"false\" h=\"68\" w=\"294\">This example will test if the current entity type is the player. If it is true, then it will run whatever you place in the \"do\" section of the if statement.</comment><value name=\"IF0\"><block type=\"logic_entity_compare\"><field name=\"entity\">EntityPlayer</field><value name=\"compareTo\"><block type=\"entity_from_deps\"></block></value></block></value></block><block type=\"controls_if\" x=\"-175\" y=\"290\"></block><block type=\"entity_from_deps\" x=\"167\" y=\"303\"></block></xml>"
+  }
+}

@@ -79,6 +79,7 @@ public class JacksautismembodiedModVariables {
 				clone.ObeaseLevel = original.ObeaseLevel;
 				clone.hasbenngiven = original.hasbenngiven;
 				clone.used = original.used;
+				clone.Syle = original.Syle;
 			}
 		}
 	}
@@ -126,6 +127,7 @@ public class JacksautismembodiedModVariables {
 		public double used = 0;
 		public double lactated = 0;
 		public double lactose = 0;
+		public double Syle = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -146,6 +148,7 @@ public class JacksautismembodiedModVariables {
 			nbt.putDouble("used", used);
 			nbt.putDouble("lactated", lactated);
 			nbt.putDouble("lactose", lactose);
+			nbt.putDouble("Syle", Syle);
 			return nbt;
 		}
 
@@ -163,6 +166,7 @@ public class JacksautismembodiedModVariables {
 			used = nbt.getDouble("used");
 			lactated = nbt.getDouble("lactated");
 			lactose = nbt.getDouble("lactose");
+			Syle = nbt.getDouble("Syle");
 		}
 	}
 
@@ -199,6 +203,7 @@ public class JacksautismembodiedModVariables {
 					variables.used = message.data.used;
 					variables.lactated = message.data.lactated;
 					variables.lactose = message.data.lactose;
+					variables.Syle = message.data.Syle;
 				}
 			});
 			context.setPacketHandled(true);

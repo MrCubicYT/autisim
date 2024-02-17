@@ -69,6 +69,7 @@ public class JacksautismembodiedModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(JacksautismembodiedModItems.BEEF_CUBE.get());
 			tabData.accept(JacksautismembodiedModItems.COOKED.get());
+			tabData.accept(JacksautismembodiedModItems.KREEM.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

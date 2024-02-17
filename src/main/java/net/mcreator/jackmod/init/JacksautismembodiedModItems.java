@@ -21,6 +21,7 @@ import net.mcreator.jackmod.item.SecondChanceItem;
 import net.mcreator.jackmod.item.RifleItem;
 import net.mcreator.jackmod.item.PUREPISSItem;
 import net.mcreator.jackmod.item.ObsidianKnifesItem;
+import net.mcreator.jackmod.item.KreemItem;
 import net.mcreator.jackmod.item.IronKnifeItem;
 import net.mcreator.jackmod.item.HealthPickupItem;
 import net.mcreator.jackmod.item.HateTrinketItem;
@@ -70,6 +71,7 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> DIAMOND_KNIFE = REGISTRY.register("diamond_knife", () -> new DiamondKnifeItem());
 	public static final RegistryObject<Item> OBSIDIAN_KNIFES = REGISTRY.register("obsidian_knifes", () -> new ObsidianKnifesItem());
 	public static final RegistryObject<Item> RUBBER_DUCK_SPAWN_EGG = REGISTRY.register("rubber_duck_spawn_egg", () -> new ForgeSpawnEggItem(JacksautismembodiedModEntities.RUBBER_DUCK, -2952, -29621, new Item.Properties()));
+	public static final RegistryObject<Item> KREEM = REGISTRY.register("kreem", () -> new KreemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
