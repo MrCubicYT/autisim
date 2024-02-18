@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.jackmod.client.model.Modelstabb;
 import net.mcreator.jackmod.client.model.Modellarm;
+import net.mcreator.jackmod.client.model.Modelfarts;
 import net.mcreator.jackmod.client.model.Modelchestplate;
 import net.mcreator.jackmod.client.model.Modelbingchilling;
 import net.mcreator.jackmod.client.model.ModelWanderer;
@@ -30,6 +31,7 @@ public class JacksautismembodiedModModels {
 		event.registerLayerDefinition(ModelWanderer.LAYER_LOCATION, ModelWanderer::createBodyLayer);
 		event.registerLayerDefinition(ModelSecondChance.LAYER_LOCATION, ModelSecondChance::createBodyLayer);
 		event.registerLayerDefinition(ModelEYE.LAYER_LOCATION, ModelEYE::createBodyLayer);
+		event.registerLayerDefinition(Modelfarts.LAYER_LOCATION, Modelfarts::createBodyLayer);
 		event.registerLayerDefinition(ModelPissBaby.LAYER_LOCATION, ModelPissBaby::createBodyLayer);
 		event.registerLayerDefinition(ModelRubberDuck.LAYER_LOCATION, ModelRubberDuck::createBodyLayer);
 		event.registerLayerDefinition(ModelFleshBall.LAYER_LOCATION, ModelFleshBall::createBodyLayer);

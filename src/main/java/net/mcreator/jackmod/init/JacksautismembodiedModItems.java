@@ -17,6 +17,7 @@ import net.mcreator.jackmod.item.WoodenKnifeItem;
 import net.mcreator.jackmod.item.UraniumItem;
 import net.mcreator.jackmod.item.UnoReverseItem;
 import net.mcreator.jackmod.item.UnfilteredBottleOfPissItem;
+import net.mcreator.jackmod.item.TophatItem;
 import net.mcreator.jackmod.item.TheSlabItem;
 import net.mcreator.jackmod.item.StoneKnifeItem;
 import net.mcreator.jackmod.item.StomachItem;
@@ -39,6 +40,7 @@ import net.mcreator.jackmod.item.IntestineItem;
 import net.mcreator.jackmod.item.HeartItem;
 import net.mcreator.jackmod.item.HealthPickupItem;
 import net.mcreator.jackmod.item.HateTrinketItem;
+import net.mcreator.jackmod.item.GoldCoinItem;
 import net.mcreator.jackmod.item.GildedBatItem;
 import net.mcreator.jackmod.item.DreamSweetInCMajorItem;
 import net.mcreator.jackmod.item.DiamondKnifeItem;
@@ -109,6 +111,8 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> JACK_COSTUME_LEGGINGS = REGISTRY.register("jack_costume_leggings", () -> new JackCostumeItem.Leggings());
 	public static final RegistryObject<Item> KEY = REGISTRY.register("key", () -> new KeyItem());
 	public static final RegistryObject<Item> THE_SLAB = REGISTRY.register("the_slab", () -> new TheSlabItem());
+	public static final RegistryObject<Item> TOPHAT_HELMET = REGISTRY.register("tophat_helmet", () -> new TophatItem.Helmet());
+	public static final RegistryObject<Item> GOLD_COIN = REGISTRY.register("gold_coin", () -> new GoldCoinItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
