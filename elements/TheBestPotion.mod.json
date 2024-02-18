@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of The Best Potion",
+    "splashName": "Splash Potion of The Best Potion",
+    "lingeringName": "Lingering Potion of The Best Potion",
+    "arrowName": "Arrow of The Best Potion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:TheBestPotionEffect"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

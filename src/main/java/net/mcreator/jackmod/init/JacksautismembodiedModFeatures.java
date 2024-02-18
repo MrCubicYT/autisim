@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.jackmod.world.features.plants.RoseFeature;
 import net.mcreator.jackmod.world.features.ores.ZfightblockFeature;
+import net.mcreator.jackmod.world.features.SandFeature;
 import net.mcreator.jackmod.world.features.SFeature;
 import net.mcreator.jackmod.world.features.LFeature;
 import net.mcreator.jackmod.world.features.KFeature;
@@ -52,4 +53,5 @@ public class JacksautismembodiedModFeatures {
 	public static final RegistryObject<Feature<?>> S = REGISTRY.register("s", SFeature::new);
 	public static final RegistryObject<Feature<?>> ASD = REGISTRY.register("asd", AsdFeature::new);
 	public static final RegistryObject<Feature<?>> DS_AS = REGISTRY.register("ds_as", DsAsFeature::new);
+	public static final RegistryObject<Feature<?>> SAND = REGISTRY.register("sand", SandFeature::new);
 }

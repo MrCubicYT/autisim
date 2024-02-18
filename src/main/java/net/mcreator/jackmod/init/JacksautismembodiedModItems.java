@@ -17,6 +17,7 @@ import net.mcreator.jackmod.item.WoodenKnifeItem;
 import net.mcreator.jackmod.item.UraniumItem;
 import net.mcreator.jackmod.item.UnoReverseItem;
 import net.mcreator.jackmod.item.UnfilteredBottleOfPissItem;
+import net.mcreator.jackmod.item.TheSlabItem;
 import net.mcreator.jackmod.item.StoneKnifeItem;
 import net.mcreator.jackmod.item.StomachItem;
 import net.mcreator.jackmod.item.SpleenItem;
@@ -31,6 +32,8 @@ import net.mcreator.jackmod.item.LungItem;
 import net.mcreator.jackmod.item.LiverItem;
 import net.mcreator.jackmod.item.KreemItem;
 import net.mcreator.jackmod.item.KidneyItem;
+import net.mcreator.jackmod.item.KeyItem;
+import net.mcreator.jackmod.item.JackCostumeItem;
 import net.mcreator.jackmod.item.IronKnifeItem;
 import net.mcreator.jackmod.item.IntestineItem;
 import net.mcreator.jackmod.item.HeartItem;
@@ -101,6 +104,11 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> RIB = REGISTRY.register("rib", () -> new RibItem());
 	public static final RegistryObject<Item> BANANA_MAN = REGISTRY.register("banana_man", () -> new BananaManItem());
 	public static final RegistryObject<Item> DREAM_SWEET_IN_C_MAJOR = REGISTRY.register("dream_sweet_in_c_major", () -> new DreamSweetInCMajorItem());
+	public static final RegistryObject<Item> SPRUCE_CRATE = block(JacksautismembodiedModBlocks.SPRUCE_CRATE);
+	public static final RegistryObject<Item> JACK_COSTUME_HELMET = REGISTRY.register("jack_costume_helmet", () -> new JackCostumeItem.Helmet());
+	public static final RegistryObject<Item> JACK_COSTUME_LEGGINGS = REGISTRY.register("jack_costume_leggings", () -> new JackCostumeItem.Leggings());
+	public static final RegistryObject<Item> KEY = REGISTRY.register("key", () -> new KeyItem());
+	public static final RegistryObject<Item> THE_SLAB = REGISTRY.register("the_slab", () -> new TheSlabItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

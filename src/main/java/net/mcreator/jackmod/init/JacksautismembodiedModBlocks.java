@@ -18,6 +18,7 @@ import net.mcreator.jackmod.block.ZfightblockBlock;
 import net.mcreator.jackmod.block.TiledSandstoneBlock;
 import net.mcreator.jackmod.block.StopSignBlock;
 import net.mcreator.jackmod.block.StonePathBlock;
+import net.mcreator.jackmod.block.SpruceCrateBlock;
 import net.mcreator.jackmod.block.SpringPadBlock;
 import net.mcreator.jackmod.block.RoseBlock;
 import net.mcreator.jackmod.block.NILLBlock;
@@ -40,6 +41,7 @@ public class JacksautismembodiedModBlocks {
 	public static final RegistryObject<Block> STONE_PATH = REGISTRY.register("stone_path", () -> new StonePathBlock());
 	public static final RegistryObject<Block> TILED_SANDSTONE = REGISTRY.register("tiled_sandstone", () -> new TiledSandstoneBlock());
 	public static final RegistryObject<Block> ETCHED_SANDSTONE = REGISTRY.register("etched_sandstone", () -> new EtchedSandstoneBlock());
+	public static final RegistryObject<Block> SPRUCE_CRATE = REGISTRY.register("spruce_crate", () -> new SpruceCrateBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

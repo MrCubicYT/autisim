@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "desert",
+  "features": "jacksautismembodied:sand",
+  "step": "surface_structures"
+}

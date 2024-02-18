@@ -1,0 +1,75 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "gyat",
+    "enableBody": false,
+    "textureBody": "gyat",
+    "enableLeggings": true,
+    "textureLeggings": "gyat",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onHelmetTick": {
+      "name": "JackCostumeHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "JackCostumeChestplateTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "JackCostumeLeggingsTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "socsk",
+    "helmetName": "Jack Costume Helmet",
+    "bodyName": "Jack Costume Chestplate",
+    "leggingsName": "Jack Costume Leggings",
+    "bootsName": "Jack Costume Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelHead",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "head.png",
+    "bodyModelName": "Modelchestplate",
+    "bodyModelPart": "RightLeg",
+    "armsModelPartL": "RightLeg",
+    "armsModelPartR": "RightLeg",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Modelchestplate",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "pumking.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": false,
+    "maxDamage": 999,
+    "damageValueHelmet": 40,
+    "damageValueBody": 40,
+    "damageValueLeggings": 40,
+    "damageValueBoots": 40,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

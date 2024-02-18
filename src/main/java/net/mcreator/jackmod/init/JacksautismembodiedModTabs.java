@@ -30,6 +30,7 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModBlocks.STONE_PATH.get().asItem());
 			tabData.accept(JacksautismembodiedModBlocks.TILED_SANDSTONE.get().asItem());
 			tabData.accept(JacksautismembodiedModBlocks.ETCHED_SANDSTONE.get().asItem());
+			tabData.accept(JacksautismembodiedModBlocks.SPRUCE_CRATE.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
@@ -41,6 +42,8 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.BIGBAT.get());
 			tabData.accept(JacksautismembodiedModItems.RIFLE.get());
 			tabData.accept(JacksautismembodiedModItems.WOODEN_KNIFE.get());
+			tabData.accept(JacksautismembodiedModItems.JACK_COSTUME_HELMET.get());
+			tabData.accept(JacksautismembodiedModItems.JACK_COSTUME_LEGGINGS.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
@@ -67,6 +70,7 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.OBSIDIAN_KNIFES.get());
 			tabData.accept(JacksautismembodiedModItems.BANANA_MAN.get());
 			tabData.accept(JacksautismembodiedModItems.DREAM_SWEET_IN_C_MAJOR.get());
+			tabData.accept(JacksautismembodiedModItems.THE_SLAB.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {

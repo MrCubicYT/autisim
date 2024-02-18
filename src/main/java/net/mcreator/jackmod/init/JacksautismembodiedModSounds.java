@@ -26,4 +26,6 @@ public class JacksautismembodiedModSounds {
 	public static final RegistryObject<SoundEvent> BLOCK_ZFIGHTAMB = REGISTRY.register("block.zfightamb", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "block.zfightamb")));
 	public static final RegistryObject<SoundEvent> BANANA = REGISTRY.register("banana", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "banana")));
 	public static final RegistryObject<SoundEvent> DREAM = REGISTRY.register("dream", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "dream")));
+	public static final RegistryObject<SoundEvent> COMPLETE = REGISTRY.register("complete", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "complete")));
+	public static final RegistryObject<SoundEvent> LETHAL = REGISTRY.register("lethal", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "lethal")));
 }

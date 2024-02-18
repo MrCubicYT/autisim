@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jacksautismembodied:block/spruce_sealed_crate",
+    "up": "jacksautismembodied:block/spruce_sealed_crate",
+    "north": "jacksautismembodied:block/spruce_sealed_crate",
+    "east": "jacksautismembodied:block/spruce_sealed_crate",
+    "south": "jacksautismembodied:block/spruce_sealed_crate",
+    "west": "jacksautismembodied:block/spruce_sealed_crate",
+    "particle": "jacksautismembodied:block/spruce_sealed_crate"
+  },
+  "render_type": "solid"
+}

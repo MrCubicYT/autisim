@@ -2726,19 +2726,6 @@
       }
     },
     {
-      "name": "Goodloot",
-      "type": "loottable",
-      "sortid": 150,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "goodloot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/jacksautismembodied/loot_tables/chests/goodloot.json"
-        ]
-      }
-    },
-    {
       "name": "FORTNITE",
       "type": "structure",
       "sortid": 151,
@@ -3108,6 +3095,308 @@
           "src/main/java/net/mcreator/jackmod/item/DreamSweetInCMajorItem.java"
         ]
       }
+    },
+    {
+      "name": "SpruceCrate",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/blockstates/spruce_crate.json",
+          "src/main/java/net/mcreator/jackmod/block/SpruceCrateBlock.java",
+          "src/main/resources/assets/jacksautismembodied/models/block/spruce_crate.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/spruce_crate.json"
+        ]
+      }
+    },
+    {
+      "name": "SpruceCrateL",
+      "type": "loottable",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_crate_l",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/loot_tables/blocks/spruce_crate.json"
+        ]
+      }
+    },
+    {
+      "name": "Testt",
+      "type": "feature",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/testt.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/testt.json",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/testt_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "LockRightclicked",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lock_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/LockRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyRightclicked",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/KeyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JackCostumeHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jack_costume_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/JackCostumeHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JackCostumeChestplateTickEvent",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jack_costume_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/JackCostumeChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JackCostumeLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jack_costume_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/JackCostumeLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JackCostume",
+      "type": "armor",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jack_costume",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/jack_costume_helmet.json",
+          "src/main/java/net/mcreator/jackmod/item/JackCostumeItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/jack_costume_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Key",
+      "type": "item",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/key.json",
+          "src/main/java/net/mcreator/jackmod/item/KeyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheBestPotionEffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_best_potion_effect_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/TheBestPotionEffectEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBestPotionEffect",
+      "type": "potioneffect",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_best_potion_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/potion/TheBestPotionEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "TheBestPotion",
+      "type": "potion",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_best_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheRecipie",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_recipie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/recipes/brewing/TheRecipieBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "TheSlabItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_slab_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/TheSlabItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheSlab",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/the_slab.json",
+          "src/main/java/net/mcreator/jackmod/item/TheSlabItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sand",
+      "type": "structure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/sand_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/sand.json",
+          "src/main/java/net/mcreator/jackmod/world/features/SandFeature.java",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/sand.json"
+        ]
+      }
+    },
+    {
+      "name": "BludForgotToReturnTheSlab",
+      "type": "achievement",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blud_forgot_to_return_the_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/advancements/blud_forgot_to_return_the_slab.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3311,16 +3600,36 @@
       ],
       "category": "music",
       "subtitle": "Dream sweet in c major"
+    },
+    {
+      "name": "complete",
+      "files": [
+        "game-level-complete-143022"
+      ],
+      "category": "ambient",
+      "subtitle": "Level up"
+    },
+    {
+      "name": "lethal",
+      "files": [
+        "y2mate.is-super-mario-64-soundtrack-lethal-lava-land-vthq62tj5xi-192k-1708258102"
+      ],
+      "category": "music",
+      "subtitle": "Lethal lava land"
     }
   ],
   "language_map": {
     "en_us": {
+      "effect.jacksautismembodied.the_best_potion_effect": "its the best potion effect trust me",
       "entity.jacksautismembodied.kevins": "Kevins",
       "biome.jacksautismembodied.fields": "Fields",
       "block.jacksautismembodied.rose": "Rose",
       "item.jacksautismembodied.christmas": "Health Pickup",
       "item.jacksautismembodied.intestine": "Intestine",
+      "item.jacksautismembodied.jack_costume_leggings": "Jack Costume Leggings",
       "item.jacksautismembodied.flesh_ball_spawn_egg": "Flesh Ball Spawn Egg",
+      "block.jacksautismembodied.spruce_crate": "Spruce Crate",
+      "item.jacksautismembodied.jack_costume_helmet": "Jack Costume Helmet",
       "advancements.dinner_is_served.descr": "Cook a beef cube",
       "block.jackmod.bad_grave": "Bad Grave",
       "death.attack.dieo": "%s Shat themselves",
@@ -3335,6 +3644,7 @@
       "subtitles.pee": "Piss baby really needs to piss",
       "entity.jacksautismembodied.flesh_ball": "Flesh Ball",
       "subtitles.ded": "Piss baby dies",
+      "advancements.blud_forgot_to_return_the_slab.title": "Blud Forgot To Return The Slab",
       "item.jacksautismembodied.spine": "Spine",
       "effect.jacksautismembodied.obesity": "Obesity",
       "subtitles.block.zfightamb": "-.. --- -. - / --. ---",
@@ -3355,6 +3665,7 @@
       "item.jacksautismembodied.dream_sweet_in_c_major": "Dream Sweet In C Major",
       "block.jackmod.good_grave": "Good Grave",
       "biome.jacksautismembodied.rose_field": "Rose Field",
+      "item.minecraft.tipped_arrow.effect.the_best_potion": "Arrow of The Best Potion",
       "item.jacksautismembodied.iron_knife": "Iron Knife",
       "effect.jacksautismembodied.bleeding": "Bleeding",
       "advancements.fifty_million.title": "Fifty Million calories",
@@ -3369,14 +3680,17 @@
       "block.jacksautismembodied.good_grave": "Good Grave",
       "item.jackmod.purepiss": "PUREPISS",
       "advancements.appendix_master.descr": "He died of Appendixitis",
+      "item.jacksautismembodied.the_slab": "The Slab",
       "biome.jacksautismembodied.fallback": "FALLBACK",
       "entity.jacksautismembodied.piss_baby": "Piss Baby",
       "subtitles.dgrave": "Stupid grave lol",
       "biome.jacksautismembodied.unstable": "Unstable",
       "item.jacksautismembodied.stomach": "Stomach",
       "item.jackmod.piss_baby_spawn_egg": "Piss Baby Spawn Egg",
+      "item.minecraft.lingering_potion.effect.the_best_potion": "Lingering Potion of The Best Potion",
       "block.jacksautismembodied.spring_pad": "Spring Pad",
       "item.jacksautismembodied.kidney": "Kidney",
+      "item.minecraft.splash_potion.effect.the_best_potion": "Splash Potion of The Best Potion",
       "subtitles.thiccbathit1": "Thicc Bat Hits",
       "advancements.no.descr": "Is their any exit?",
       "item.jacksautismembodied.health_pickup": "Health Pickup",
@@ -3391,6 +3705,7 @@
       "item.minecraft.splash_potion.effect.bottle_of_piss": "Splash Potion of Piss",
       "entity.jacksautismembodied.watcher": "Watcher",
       "death.attack.bleed": "%s bled out",
+      "subtitles.lethal": "Lethal lava land",
       "entity.jackmod.piss_baby": "Piss Baby",
       "block.jacksautismembodied.stop_sign": "Stop Sign",
       "subtitles.dream": "Dream sweet in c major",
@@ -3399,8 +3714,10 @@
       "biome.jacksautismembodied.ancient": "Ancient",
       "item.jacksautismembodied.kabeem_spawn_egg": "Kabeem Spawn Egg",
       "effect.jacksautismembodied.deadly_diarrhoea": "diarrhoea",
+      "item.minecraft.potion.effect.the_best_potion": "Potion of The Best Potion",
       "subtitles.peehurt": "Piss baby hurt",
       "item.jacksautismembodied.purepiss": "PUREPISS",
+      "item.jacksautismembodied.key": "Key",
       "biome.jacksautismembodied.mountains": "Mountains",
       "item.jacksautismembodied.obsidian_knifes": "Obsidian Knife",
       "item.jacksautismembodied.gilded_bat": "Gilded Bat",
@@ -3419,6 +3736,8 @@
       "key.jacksautismembodied.g": "G",
       "item.jacksautismembodied.spleen": "Spleen",
       "biome.jacksautismembodied.mimic": "Mimic",
+      "subtitles.complete": "Level up",
+      "advancements.blud_forgot_to_return_the_slab.descr": "Blud Forgot To Return The Slab",
       "item.jacksautismembodied.diamond_knife": "Diamond Knife",
       "item.jacksautismembodied.rubber_duck_spawn_egg": "Rubber Duck Spawn Egg",
       "item.jacksautismembodied.heart": "Heart",
@@ -3508,6 +3827,7 @@
       "kleidersplayerrenderer",
       "pehkui",
       "curios_api",
+      "worldgen",
       "geckolib",
       "playeranimator"
     ],

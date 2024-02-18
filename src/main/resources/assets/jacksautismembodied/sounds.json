@@ -181,5 +181,23 @@
         "stream": true
       }
     ]
+  },
+  "complete": {
+    "subtitle": "subtitles.complete",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:game-level-complete-143022",
+        "stream": false
+      }
+    ]
+  },
+  "lethal": {
+    "subtitle": "subtitles.lethal",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:y2mate.is-super-mario-64-soundtrack-lethal-lava-land-vthq62tj5xi-192k-1708258102",
+        "stream": true
+      }
+    ]
   }
 }

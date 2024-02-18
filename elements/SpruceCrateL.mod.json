@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "loottable",
   "definition": {
-    "type": "Chest",
+    "type": "Block",
     "pools": [
       {
         "minrolls": 1,
@@ -14,39 +14,39 @@
           {
             "type": "item",
             "item": {
+              "value": "CUSTOM:WoodenKnife"
+            },
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:RealDiamond"
+            },
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 10,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
               "value": "CUSTOM:Kreem"
             },
-            "weight": 50,
+            "weight": 80,
             "minCount": 1,
-            "maxCount": 9999,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:DiamondKnife"
-            },
-            "weight": 10,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:IronKnife"
-            },
-            "weight": 30,
-            "minCount": 1,
-            "maxCount": 1,
+            "maxCount": 100,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -70,9 +70,9 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:WoodenKnife"
+              "value": "CUSTOM:IronKnife"
             },
-            "weight": 60,
+            "weight": 40,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -84,11 +84,39 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:BeefCube"
+              "value": "CUSTOM:Spine"
             },
-            "weight": 40,
+            "weight": 60,
             "minCount": 1,
             "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Rib"
+            },
+            "weight": 50,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:RubberDuck.spawn_egg"
+            },
+            "weight": 90,
+            "minCount": 1,
+            "maxCount": 5,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -98,7 +126,7 @@
         ]
       }
     ],
-    "name": "chests/goodloot",
+    "name": "blocks/spruce_crate",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "its the best potion effect trust me",
+    "icon": "gay.png",
+    "color": {
+      "value": -13421569,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "TheBestPotionEffectEffectStartedapplied"
+    }
+  }
+}
