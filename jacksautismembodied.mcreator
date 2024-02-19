@@ -3236,21 +3236,6 @@
       }
     },
     {
-      "name": "JackCostume",
-      "type": "armor",
-      "sortid": 182,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jack_costume",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/jacksautismembodied/models/item/jack_costume_helmet.json",
-          "src/main/java/net/mcreator/jackmod/item/JackCostumeItem.java",
-          "src/main/resources/assets/jacksautismembodied/models/item/jack_costume_leggings.json"
-        ]
-      }
-    },
-    {
       "name": "Key",
       "type": "item",
       "sortid": 183,
@@ -3436,6 +3421,33 @@
         "files": [
           "src/main/resources/assets/jacksautismembodied/models/item/gold_coin.json",
           "src/main/java/net/mcreator/jackmod/item/GoldCoinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JackCostume",
+      "type": "armor",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jack_costume",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/jack_costume_helmet.json",
+          "src/main/java/net/mcreator/jackmod/item/JackCostumeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rec",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/rec.json"
         ]
       }
     }
@@ -3667,10 +3679,9 @@
       "block.jacksautismembodied.rose": "Rose",
       "item.jacksautismembodied.christmas": "Health Pickup",
       "item.jacksautismembodied.intestine": "Intestine",
-      "item.jacksautismembodied.jack_costume_leggings": "Jack Costume Leggings",
       "item.jacksautismembodied.flesh_ball_spawn_egg": "Flesh Ball Spawn Egg",
       "block.jacksautismembodied.spruce_crate": "Spruce Crate",
-      "item.jacksautismembodied.jack_costume_helmet": "Jack Costume Helmet",
+      "item.jacksautismembodied.jack_costume_helmet": "Jack Fursuit Helmet",
       "advancements.dinner_is_served.descr": "Cook a beef cube",
       "block.jackmod.bad_grave": "Bad Grave",
       "death.attack.dieo": "%s Shat themselves",

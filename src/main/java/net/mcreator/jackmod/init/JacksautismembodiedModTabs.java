@@ -42,9 +42,8 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.BIGBAT.get());
 			tabData.accept(JacksautismembodiedModItems.RIFLE.get());
 			tabData.accept(JacksautismembodiedModItems.WOODEN_KNIFE.get());
-			tabData.accept(JacksautismembodiedModItems.JACK_COSTUME_HELMET.get());
-			tabData.accept(JacksautismembodiedModItems.JACK_COSTUME_LEGGINGS.get());
 			tabData.accept(JacksautismembodiedModItems.TOPHAT_HELMET.get());
+			tabData.accept(JacksautismembodiedModItems.JACK_COSTUME_HELMET.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
