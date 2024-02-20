@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:coal_block"
+    },
+    "title": {
+      "translate": "advancements.pure_magic.title"
+    },
+    "description": {
+      "translate": "advancements.pure_magic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pure_magic": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jacksautismembodied:dinner_is_served"
+}
