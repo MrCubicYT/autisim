@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Pepsi brew",
+    "splashName": "Splash Potion of Pepsi brew",
+    "lingeringName": "Lingering Potion of Pepsi brew",
+    "arrowName": "Arrow of Pepsi brew",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "INSTANT_HEALTH"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "JUMP_BOOST"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -3450,6 +3450,82 @@
           "src/main/resources/data/jacksautismembodied/recipes/rec.json"
         ]
       }
+    },
+    {
+      "name": "PunDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pun_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/PunDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pun",
+      "type": "overlay",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/client/screens/PunOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Pepsi",
+      "type": "potion",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepsi",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PebsiFactory",
+      "type": "structure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebsi_factory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/world/features/PebsiFactoryFeature.java",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/pebsi_factory_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/pebsi_factory.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/pebsi_factory.json"
+        ]
+      }
+    },
+    {
+      "name": "Two",
+      "type": "structure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/two.json",
+          "src/main/java/net/mcreator/jackmod/world/features/TwoFeature.java",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/two.json",
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/two_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3675,8 +3751,8 @@
     "en_us": {
       "effect.jacksautismembodied.the_best_potion_effect": "its the best potion effect trust me",
       "entity.jacksautismembodied.kevins": "Kevins",
-      "biome.jacksautismembodied.fields": "Fields",
       "block.jacksautismembodied.rose": "Rose",
+      "biome.jacksautismembodied.fields": "Fields",
       "item.jacksautismembodied.christmas": "Health Pickup",
       "item.jacksautismembodied.intestine": "Intestine",
       "item.jacksautismembodied.flesh_ball_spawn_egg": "Flesh Ball Spawn Egg",
@@ -3688,8 +3764,8 @@
       "death.attack.style": "%s was styled on to hard.",
       "item.jacksautismembodied.wooden_knife": "Wooden Knife",
       "subtitles.shoot": "RifleShoot",
-      "advancements.no.title": "The road to nowhere",
       "block.jacksautismembodied.zfightblock": "Grass.",
+      "advancements.no.title": "The road to nowhere",
       "advancements.appendix_master.title": "Appendix Master",
       "item.jacksautismembodied.hate_trinket": "Hate Trinket",
       "item.jacksautismembodied.second_chance": "Second Chance",
@@ -3713,6 +3789,8 @@
       "effect.jacksautismembodied.violent_diarrhoea": "diarrhoea",
       "item.minecraft.potion.effect.bottle_of_piss": "Potion of Piss",
       "item.jacksautismembodied.cocaine": "Cocaine",
+      "item.minecraft.potion.effect.pepsi": "Pepsi brew",
+      "item.minecraft.tipped_arrow.effect.pepsi": "Arrow of Pepsi brew",
       "block.jacksautismembodied.etched_sandstone": "Etched Sandstone",
       "item.jacksautismembodied.dream_sweet_in_c_major": "Dream Sweet In C Major",
       "block.jackmod.good_grave": "Good Grave",
@@ -3752,6 +3830,7 @@
       "item.jacksautismembodied.appendix": "Appendix",
       "item.jacksautismembodied.lung": "Lung",
       "advancements.fifty_million.descr": "Eat uranium",
+      "item.minecraft.splash_potion.effect.pepsi": "Splash Potion of Pepsi brew",
       "biome.jacksautismembodied.voids": "Voids",
       "entity.jacksautismembodied.run": "RUN",
       "item.minecraft.splash_potion.effect.bottle_of_piss": "Splash Potion of Piss",
@@ -3771,6 +3850,7 @@
       "item.jacksautismembodied.gold_coin": "Gold Coin",
       "item.jacksautismembodied.purepiss": "PUREPISS",
       "item.jacksautismembodied.key": "Key",
+      "item.minecraft.lingering_potion.effect.pepsi": "Lingering Potion of Pepsi brew",
       "biome.jacksautismembodied.mountains": "Mountains",
       "item.jacksautismembodied.obsidian_knifes": "Obsidian Knife",
       "item.jacksautismembodied.gilded_bat": "Gilded Bat",
