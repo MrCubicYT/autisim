@@ -28,4 +28,5 @@ public class JacksautismembodiedModSounds {
 	public static final RegistryObject<SoundEvent> DREAM = REGISTRY.register("dream", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "dream")));
 	public static final RegistryObject<SoundEvent> COMPLETE = REGISTRY.register("complete", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "complete")));
 	public static final RegistryObject<SoundEvent> LETHAL = REGISTRY.register("lethal", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "lethal")));
+	public static final RegistryObject<SoundEvent> BOING = REGISTRY.register("boing", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("jacksautismembodied", "boing")));
 }

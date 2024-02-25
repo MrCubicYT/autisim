@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.jackmod.world.features.plants.RoseFeature;
 import net.mcreator.jackmod.world.features.ores.ZfightblockFeature;
+import net.mcreator.jackmod.world.features.ores.CobaltOreFeature;
 import net.mcreator.jackmod.world.features.TwoFeature;
 import net.mcreator.jackmod.world.features.SandFeature;
 import net.mcreator.jackmod.world.features.SFeature;
@@ -31,6 +32,7 @@ import net.mcreator.jackmod.world.features.ERFeature;
 import net.mcreator.jackmod.world.features.DsAsFeature;
 import net.mcreator.jackmod.world.features.CreepFeature;
 import net.mcreator.jackmod.world.features.CFeature;
+import net.mcreator.jackmod.world.features.BINGUSFeature;
 import net.mcreator.jackmod.world.features.BFeature;
 import net.mcreator.jackmod.world.features.AsdFeature;
 import net.mcreator.jackmod.world.features.AFeature;
@@ -58,4 +60,6 @@ public class JacksautismembodiedModFeatures {
 	public static final RegistryObject<Feature<?>> SAND = REGISTRY.register("sand", SandFeature::new);
 	public static final RegistryObject<Feature<?>> PEBSI_FACTORY = REGISTRY.register("pebsi_factory", PebsiFactoryFeature::new);
 	public static final RegistryObject<Feature<?>> TWO = REGISTRY.register("two", TwoFeature::new);
+	public static final RegistryObject<Feature<?>> BINGUS = REGISTRY.register("bingus", BINGUSFeature::new);
+	public static final RegistryObject<Feature<?>> COBALT_ORE = REGISTRY.register("cobalt_ore", CobaltOreFeature::new);
 }

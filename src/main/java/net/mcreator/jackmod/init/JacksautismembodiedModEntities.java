@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.jackmod.entity.WatcherEntity;
+import net.mcreator.jackmod.entity.SpermBossEntity;
 import net.mcreator.jackmod.entity.RubberDuckEntity;
 import net.mcreator.jackmod.entity.RifleEntity;
 import net.mcreator.jackmod.entity.RUNEntity;
@@ -65,6 +66,10 @@ public class JacksautismembodiedModEntities {
 			EntityType.Builder.<FleshBallEntity>of(FleshBallEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FleshBallEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SpermBossEntity>> SPERM_BOSS = register("sperm_boss",
+			EntityType.Builder.<SpermBossEntity>of(SpermBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpermBossEntity::new)
+
+					.sized(10f, 10f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -81,6 +86,7 @@ public class JacksautismembodiedModEntities {
 			RubberDuckEntity.init();
 			RUNEntity.init();
 			FleshBallEntity.init();
+			SpermBossEntity.init();
 		});
 	}
 
@@ -94,5 +100,6 @@ public class JacksautismembodiedModEntities {
 		event.put(RUBBER_DUCK.get(), RubberDuckEntity.createAttributes().build());
 		event.put(RUN.get(), RUNEntity.createAttributes().build());
 		event.put(FLESH_BALL.get(), FleshBallEntity.createAttributes().build());
+		event.put(SPERM_BOSS.get(), SpermBossEntity.createAttributes().build());
 	}
 }

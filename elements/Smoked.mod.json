@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 105,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:GoldenBug"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedGoldenbug"
+    },
+    "name": "smoked",
+    "namespace": "mod"
+  }
+}

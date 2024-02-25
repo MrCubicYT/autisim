@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 105,
+  "ingredient": {
+    "item": "jacksautismembodied:golden_bug"
+  },
+  "result": "jacksautismembodied:cooked_goldenbug"
+}

@@ -3411,20 +3411,6 @@
       }
     },
     {
-      "name": "GoldCoin",
-      "type": "item",
-      "sortid": 194,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gold_coin",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/jacksautismembodied/models/item/gold_coin.json",
-          "src/main/java/net/mcreator/jackmod/item/GoldCoinItem.java"
-        ]
-      }
-    },
-    {
       "name": "JackCostume",
       "type": "armor",
       "sortid": 195,
@@ -3574,6 +3560,314 @@
           "src/main/resources/data/jacksautismembodied/advancements/pure_magic.json"
         ]
       }
+    },
+    {
+      "name": "SpermBoss",
+      "type": "livingentity",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sperm_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/sperm_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/jackmod/client/renderer/SpermBossRenderer.java",
+          "src/main/java/net/mcreator/jackmod/entity/SpermBossEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BINGUS",
+      "type": "structure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bingus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/bingus_biome_modifier.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/bingus.json",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/bingus.json",
+          "src/main/java/net/mcreator/jackmod/world/features/BINGUSFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldenBugPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bug_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/GoldenBugPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "GoldenBug",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/GoldenBugItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/golden_bug.json"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "GoldenCoin",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/GoldenCoinItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/golden_coin.json"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CookedGoldenbug",
+      "type": "item",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_goldenbug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/cooked_goldenbug.json",
+          "src/main/java/net/mcreator/jackmod/item/CookedGoldenbugItem.java"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CookedGoldenbugPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_goldenbug_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/CookedGoldenbugPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "Smoked",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/smoked.json"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CobaltArmour",
+      "type": "armor",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armour",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/CobaltArmourItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/cobalt_armour_chestplate.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/cobalt_armour_boots.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/cobalt_armour_helmet.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/cobalt_armour_leggings.json"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CobaltScraps",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_scraps",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/CobaltScrapsItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/cobalt_scraps.json"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/cobalt_ingot.json",
+          "src/main/java/net/mcreator/jackmod/item/CobaltIngotItem.java"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "Cobalt",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/cobalt.json"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/forge/biome_modifier/cobalt_ore_biome_modifier.json",
+          "src/main/resources/assets/jacksautismembodied/blockstates/cobalt_ore.json",
+          "src/main/java/net/mcreator/jackmod/block/CobaltOreBlock.java",
+          "src/main/resources/data/jacksautismembodied/worldgen/configured_feature/cobalt_ore.json",
+          "src/main/java/net/mcreator/jackmod/world/features/ores/CobaltOreFeature.java",
+          "src/main/resources/data/jacksautismembodied/worldgen/placed_feature/cobalt_ore.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/cobalt_ore.json",
+          "src/main/resources/assets/jacksautismembodied/models/block/cobalt_ore.json"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CobaltOrePlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_player_starts_to_destroy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/CobaltOrePlayerStartsToDestroyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CobaltOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/CobaltOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "CobaltBlock",
+      "type": "block",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/cobalt_block.json",
+          "src/main/resources/assets/jacksautismembodied/models/block/cobalt_block.json",
+          "src/main/java/net/mcreator/jackmod/block/CobaltBlockBlock.java",
+          "src/main/resources/assets/jacksautismembodied/blockstates/cobalt_block.json"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "Blocked",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/blocked.json"
+        ]
+      },
+      "path": "~/randomshat"
     }
   ],
   "variable_elements": [
@@ -3793,14 +4087,23 @@
       ],
       "category": "music",
       "subtitle": "Lethal lava land"
+    },
+    {
+      "name": "boing",
+      "files": [
+        "boing-6222"
+      ],
+      "category": "hostile",
+      "subtitle": "springer"
     }
   ],
   "language_map": {
     "en_us": {
       "effect.jacksautismembodied.the_best_potion_effect": "its the best potion effect trust me",
       "entity.jacksautismembodied.kevins": "Kevins",
-      "block.jacksautismembodied.rose": "Rose",
       "biome.jacksautismembodied.fields": "Fields",
+      "block.jacksautismembodied.rose": "Rose",
+      "block.jacksautismembodied.cobalt_ore": "Cobalt Ore",
       "item.jacksautismembodied.christmas": "Health Pickup",
       "item.jacksautismembodied.intestine": "Intestine",
       "item.jacksautismembodied.flesh_ball_spawn_egg": "Flesh Ball Spawn Egg",
@@ -3812,8 +4115,8 @@
       "death.attack.style": "%s was styled on to hard.",
       "item.jacksautismembodied.wooden_knife": "Wooden Knife",
       "subtitles.shoot": "RifleShoot",
-      "block.jacksautismembodied.zfightblock": "Grass.",
       "advancements.no.title": "The road to nowhere",
+      "block.jacksautismembodied.zfightblock": "Grass.",
       "advancements.appendix_master.title": "Appendix Master",
       "item.jacksautismembodied.hate_trinket": "Hate Trinket",
       "item.jacksautismembodied.second_chance": "Second Chance",
@@ -3832,6 +4135,7 @@
       "item.jacksautismembodied.rib": "Rib",
       "item.jacksautismembodied.banana_man": "Banana Man",
       "item.minecraft.tipped_arrow.effect.bottle_of_piss": "Arrow of Piss",
+      "item.jacksautismembodied.cobalt_armour_chestplate": "Cobalt Chestplate",
       "item.jacksautismembodied.watcher_spawn_egg": "Watcher Spawn Egg",
       "entity.jacksautismembodied.kabeem": "Kabeem",
       "effect.jacksautismembodied.violent_diarrhoea": "diarrhoea",
@@ -3841,6 +4145,7 @@
       "item.minecraft.tipped_arrow.effect.pepsi": "Arrow of Pepsi brew",
       "block.jacksautismembodied.etched_sandstone": "Etched Sandstone",
       "item.jacksautismembodied.dream_sweet_in_c_major": "Dream Sweet In C Major",
+      "item.jacksautismembodied.cobalt_armour_boots": "Cobalt  Boots",
       "block.jackmod.good_grave": "Good Grave",
       "biome.jacksautismembodied.rose_field": "Rose Field",
       "advancements.pure_magic.title": "Pure Magic!",
@@ -3860,6 +4165,7 @@
       "item.jackmod.purepiss": "PUREPISS",
       "advancements.appendix_master.descr": "He died of Appendixitis",
       "item.jacksautismembodied.the_slab": "The Slab",
+      "item.jacksautismembodied.cobalt_armour_leggings": "Cobalt  Leggings",
       "biome.jacksautismembodied.fallback": "FALLBACK",
       "entity.jacksautismembodied.piss_baby": "Piss Baby",
       "subtitles.dgrave": "Stupid grave lol",
@@ -3869,15 +4175,19 @@
       "item.minecraft.lingering_potion.effect.the_best_potion": "Lingering Potion of The Best Potion",
       "block.jacksautismembodied.spring_pad": "Spring Pad",
       "item.jacksautismembodied.kidney": "Kidney",
+      "entity.jacksautismembodied.sperm_boss": "Sperm Boss",
       "item.minecraft.splash_potion.effect.the_best_potion": "Splash Potion of The Best Potion",
+      "item.jacksautismembodied.cobalt_armour_helmet": "Cobalt Helmet",
       "subtitles.thiccbathit1": "Thicc Bat Hits",
       "advancements.no.descr": "Is their any exit?",
       "item.jacksautismembodied.health_pickup": "Health Pickup",
       "painting.jacksautismembodied.jack.author": "Jack calumboski",
+      "item.jacksautismembodied.golden_bug": "Golden coin",
       "advancements.dinner_is_served.title": "Dinner Is Served",
       "death.attack.bled": "%s bled out",
       "item.jacksautismembodied.appendix": "Appendix",
       "item.jacksautismembodied.lung": "Lung",
+      "item.jacksautismembodied.cobalt_scraps": "Cobalt Scraps",
       "advancements.fifty_million.descr": "Eat uranium",
       "item.minecraft.splash_potion.effect.pepsi": "Splash Potion of Pepsi brew",
       "biome.jacksautismembodied.voids": "Voids",
@@ -3892,15 +4202,18 @@
       "subtitles.die": "Kevins die",
       "effect.jacksautismembodied.depressed": "Depressed",
       "biome.jacksautismembodied.ancient": "Ancient",
+      "item.jacksautismembodied.golden_coin": "Golden Coin",
       "item.jacksautismembodied.kabeem_spawn_egg": "Kabeem Spawn Egg",
       "effect.jacksautismembodied.deadly_diarrhoea": "diarrhoea",
       "item.minecraft.potion.effect.the_best_potion": "Potion of The Best Potion",
       "subtitles.peehurt": "Piss baby hurt",
-      "item.jacksautismembodied.gold_coin": "Gold Coin",
       "item.jacksautismembodied.purepiss": "PUREPISS",
       "item.jacksautismembodied.key": "Key",
       "item.minecraft.lingering_potion.effect.pepsi": "Lingering Potion of Pepsi brew",
+      "item.jacksautismembodied.cooked_goldenbug": "Cooked coin bug",
       "advancements.pure_magic.descr": "summon experience orbs",
+      "item.jacksautismembodied.sperm_boss_spawn_egg": "Sperm Boss Spawn Egg",
+      "subtitles.boing": "springer",
       "biome.jacksautismembodied.mountains": "Mountains",
       "item.jacksautismembodied.obsidian_knifes": "Obsidian Knife",
       "item.jacksautismembodied.gilded_bat": "Gilded Bat",
@@ -3909,6 +4222,7 @@
       "item.jacksautismembodied.piss_baby_spawn_egg": "Piss Baby Spawn Egg",
       "item.jacksautismembodied.banana_man.desc": "Banana man - Tally hall",
       "item.jacksautismembodied.cooked": "Beef Cube",
+      "item.jacksautismembodied.cobalt_ingot": "Cobalt Ingot",
       "entity.jacksautismembodied.human": "Human",
       "effect.jacksautismembodied.gay": "Gay",
       "block.jacksautismembodied.goofy_offering": "Goofy Offering",
@@ -3924,6 +4238,7 @@
       "item.jacksautismembodied.diamond_knife": "Diamond Knife",
       "item.jacksautismembodied.rubber_duck_spawn_egg": "Rubber Duck Spawn Egg",
       "item.jacksautismembodied.heart": "Heart",
+      "block.jacksautismembodied.cobalt_block": "Cobalt Block",
       "item.jacksautismembodied.real_diamond": "Diamond",
       "item.jacksautismembodied.liver": "Liver",
       "block.jacksautismembodied.bad_grave": "Bad Grave",
@@ -3990,6 +4305,14 @@
       },
       {
         "name": "STYLEZ",
+        "children": []
+      },
+      {
+        "name": "FusionReactor",
+        "children": []
+      },
+      {
+        "name": "randomshat",
         "children": []
       }
     ]

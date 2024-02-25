@@ -31,6 +31,8 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModBlocks.TILED_SANDSTONE.get().asItem());
 			tabData.accept(JacksautismembodiedModBlocks.ETCHED_SANDSTONE.get().asItem());
 			tabData.accept(JacksautismembodiedModBlocks.SPRUCE_CRATE.get().asItem());
+			tabData.accept(JacksautismembodiedModBlocks.COBALT_ORE.get().asItem());
+			tabData.accept(JacksautismembodiedModBlocks.COBALT_BLOCK.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
@@ -44,6 +46,10 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.WOODEN_KNIFE.get());
 			tabData.accept(JacksautismembodiedModItems.TOPHAT_HELMET.get());
 			tabData.accept(JacksautismembodiedModItems.JACK_COSTUME_HELMET.get());
+			tabData.accept(JacksautismembodiedModItems.COBALT_ARMOUR_HELMET.get());
+			tabData.accept(JacksautismembodiedModItems.COBALT_ARMOUR_CHESTPLATE.get());
+			tabData.accept(JacksautismembodiedModItems.COBALT_ARMOUR_LEGGINGS.get());
+			tabData.accept(JacksautismembodiedModItems.COBALT_ARMOUR_BOOTS.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
@@ -56,10 +62,13 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.KABEEM_SPAWN_EGG.get());
 			tabData.accept(JacksautismembodiedModItems.RUBBER_DUCK_SPAWN_EGG.get());
 			tabData.accept(JacksautismembodiedModItems.FLESH_BALL_SPAWN_EGG.get());
+			tabData.accept(JacksautismembodiedModItems.SPERM_BOSS_SPAWN_EGG.get());
+			tabData.accept(JacksautismembodiedModItems.GOLDEN_BUG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(JacksautismembodiedModItems.UNFILTERED_BOTTLE_OF_PISS.get());
+			tabData.accept(JacksautismembodiedModItems.COBALT_INGOT.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -78,6 +87,7 @@ public class JacksautismembodiedModTabs {
 			tabData.accept(JacksautismembodiedModItems.COOKED.get());
 			tabData.accept(JacksautismembodiedModItems.KREEM.get());
 			tabData.accept(JacksautismembodiedModItems.STOMACH.get());
+			tabData.accept(JacksautismembodiedModItems.COOKED_GOLDENBUG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

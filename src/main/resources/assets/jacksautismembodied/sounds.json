@@ -199,5 +199,14 @@
         "stream": true
       }
     ]
+  },
+  "boing": {
+    "subtitle": "subtitles.boing",
+    "sounds": [
+      {
+        "name": "jacksautismembodied:boing-6222",
+        "stream": false
+      }
+    ]
   }
 }

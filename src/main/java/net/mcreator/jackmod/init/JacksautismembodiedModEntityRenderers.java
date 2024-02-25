@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.jackmod.client.renderer.WatcherRenderer;
+import net.mcreator.jackmod.client.renderer.SpermBossRenderer;
 import net.mcreator.jackmod.client.renderer.RubberDuckRenderer;
 import net.mcreator.jackmod.client.renderer.RUNRenderer;
 import net.mcreator.jackmod.client.renderer.PissBabyRenderer;
@@ -34,5 +35,6 @@ public class JacksautismembodiedModEntityRenderers {
 		event.registerEntityRenderer(JacksautismembodiedModEntities.RUBBER_DUCK.get(), RubberDuckRenderer::new);
 		event.registerEntityRenderer(JacksautismembodiedModEntities.RUN.get(), RUNRenderer::new);
 		event.registerEntityRenderer(JacksautismembodiedModEntities.FLESH_BALL.get(), FleshBallRenderer::new);
+		event.registerEntityRenderer(JacksautismembodiedModEntities.SPERM_BOSS.get(), SpermBossRenderer::new);
 	}
 }

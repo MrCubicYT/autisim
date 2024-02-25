@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jacksautismembodied:block/ancient_debris_side",
+    "up": "jacksautismembodied:block/ancient_debris_side",
+    "north": "jacksautismembodied:block/ancient_debris_side",
+    "east": "jacksautismembodied:block/ancient_debris_side",
+    "south": "jacksautismembodied:block/ancient_debris_side",
+    "west": "jacksautismembodied:block/ancient_debris_side",
+    "particle": "jacksautismembodied:block/ancient_debris_side"
+  },
+  "render_type": "solid"
+}

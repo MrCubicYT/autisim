@@ -115,6 +115,34 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jacksautismembodied:golden_bug",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 25
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jacksautismembodied:golden_coin",
+          "weight": 29,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 25
+              }
+            }
+          ]
         }
       ]
     }

@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "gold_nugget",
+    "texture": "netherite_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Gold Coin",
+    "name": "Cobalt Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "MATERIALS"
     },
     "stackSize": 64,
     "enchantability": 0,
