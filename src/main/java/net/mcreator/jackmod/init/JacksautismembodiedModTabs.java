@@ -4,13 +4,16 @@
  */
 package net.mcreator.jackmod.init;
 
+import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.jackmod.JacksautismembodiedMod;
@@ -18,6 +21,13 @@ import net.mcreator.jackmod.JacksautismembodiedMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class JacksautismembodiedModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JacksautismembodiedMod.MODID);
+	public static final RegistryObject<CreativeModeTab> RUBBISH = REGISTRY.register("rubbish",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jacksautismembodied.rubbish")).icon(() -> new ItemStack(JacksautismembodiedModItems.EMPTY_WHISKEY_BOTTLE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(JacksautismembodiedModItems.EMPTY_WHISKEY_BOTTLE.get());
+				tabData.accept(JacksautismembodiedModItems.WHISKEY.get());
+			})
+
+					.build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

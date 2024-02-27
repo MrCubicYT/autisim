@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.jackmod.item.WoodenKnifeItem;
+import net.mcreator.jackmod.item.WhiskeyItem;
 import net.mcreator.jackmod.item.UraniumItem;
 import net.mcreator.jackmod.item.UnoReverseItem;
 import net.mcreator.jackmod.item.UnfilteredBottleOfPissItem;
@@ -43,6 +44,7 @@ import net.mcreator.jackmod.item.HateTrinketItem;
 import net.mcreator.jackmod.item.GoldenCoinItem;
 import net.mcreator.jackmod.item.GoldenBugItem;
 import net.mcreator.jackmod.item.GildedBatItem;
+import net.mcreator.jackmod.item.EmptyWhiskeyBottleItem;
 import net.mcreator.jackmod.item.DreamSweetInCMajorItem;
 import net.mcreator.jackmod.item.DiamondKnifeItem;
 import net.mcreator.jackmod.item.CookedItem;
@@ -128,6 +130,8 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> COBALT_INGOT = REGISTRY.register("cobalt_ingot", () -> new CobaltIngotItem());
 	public static final RegistryObject<Item> COBALT_ORE = block(JacksautismembodiedModBlocks.COBALT_ORE);
 	public static final RegistryObject<Item> COBALT_BLOCK = block(JacksautismembodiedModBlocks.COBALT_BLOCK);
+	public static final RegistryObject<Item> EMPTY_WHISKEY_BOTTLE = REGISTRY.register("empty_whiskey_bottle", () -> new EmptyWhiskeyBottleItem());
+	public static final RegistryObject<Item> WHISKEY = REGISTRY.register("whiskey", () -> new WhiskeyItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

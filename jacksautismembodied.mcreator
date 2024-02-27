@@ -3868,6 +3868,102 @@
         ]
       },
       "path": "~/randomshat"
+    },
+    {
+      "name": "Rubbish",
+      "type": "tab",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubbish",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "EmptyWhiskeyBottle",
+      "type": "item",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_whiskey_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/empty_whiskey_bottle.json",
+          "src/main/java/net/mcreator/jackmod/item/EmptyWhiskeyBottleItem.java"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "Drunk",
+      "type": "potioneffect",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/potion/DrunkMobEffect.java"
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "WhiskeyPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiskey_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/WhiskeyPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "DrunkOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drunk_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/DrunkOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/randomshat"
+    },
+    {
+      "name": "Whiskey",
+      "type": "item",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiskey",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/whiskey.json",
+          "src/main/java/net/mcreator/jackmod/item/WhiskeyItem.java"
+        ]
+      },
+      "path": "~/randomshat"
     }
   ],
   "variable_elements": [
@@ -4183,14 +4279,17 @@
       "item.jacksautismembodied.health_pickup": "Health Pickup",
       "painting.jacksautismembodied.jack.author": "Jack calumboski",
       "item.jacksautismembodied.golden_bug": "Golden coin",
+      "item.jacksautismembodied.empty_whiskey_bottle": "Empty Whiskey Bottle",
       "advancements.dinner_is_served.title": "Dinner Is Served",
       "death.attack.bled": "%s bled out",
       "item.jacksautismembodied.appendix": "Appendix",
       "item.jacksautismembodied.lung": "Lung",
+      "effect.jacksautismembodied.drunk": "Drunk",
       "item.jacksautismembodied.cobalt_scraps": "Cobalt Scraps",
       "advancements.fifty_million.descr": "Eat uranium",
       "item.minecraft.splash_potion.effect.pepsi": "Splash Potion of Pepsi brew",
       "biome.jacksautismembodied.voids": "Voids",
+      "item.jacksautismembodied.whiskey": "Whiskey",
       "entity.jacksautismembodied.run": "RUN",
       "item.minecraft.splash_potion.effect.bottle_of_piss": "Splash Potion of Piss",
       "entity.jacksautismembodied.watcher": "Watcher",
@@ -4236,6 +4335,7 @@
       "subtitles.complete": "Level up",
       "advancements.blud_forgot_to_return_the_slab.descr": "Blud Forgot To Return The Slab",
       "item.jacksautismembodied.diamond_knife": "Diamond Knife",
+      "item_group.jacksautismembodied.rubbish": "Rubbish",
       "item.jacksautismembodied.rubber_duck_spawn_egg": "Rubber Duck Spawn Egg",
       "item.jacksautismembodied.heart": "Heart",
       "block.jacksautismembodied.cobalt_block": "Cobalt Block",
