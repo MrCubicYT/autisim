@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.RAW_IRON"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BasicIngot"
+    },
+    "name": "iron_ingot",
+    "namespace": "minecraft"
+  }
+}

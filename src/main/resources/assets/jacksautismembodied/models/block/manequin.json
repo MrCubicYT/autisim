@@ -1,0 +1,9 @@
+{
+  "parent": "jacksautismembodied:custom/manequinn",
+  "textures": {
+    "all": "jacksautismembodied:block/c1264b2eefbbab5272330b4e6a7343b4",
+    "particle": "jacksautismembodied:block/c1264b2eefbbab5272330b4e6a7343b4",
+    "0": "jacksautismembodied:block/c1264b2eefbbab5272330b4e6a7343b4"
+  },
+  "render_type": "solid"
+}

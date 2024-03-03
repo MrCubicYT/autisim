@@ -3964,6 +3964,737 @@
         ]
       },
       "path": "~/randomshat"
+    },
+    {
+      "name": "ManequinUpdateTick",
+      "type": "procedure",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manequin_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/ManequinUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manequin",
+      "type": "block",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manequin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/blockstates/manequin.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/manequin.json",
+          "src/main/resources/assets/jacksautismembodied/models/block/manequin.json",
+          "src/main/java/net/mcreator/jackmod/block/ManequinBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "OakScrap",
+      "type": "item",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_scrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/oak_scrap.json",
+          "src/main/java/net/mcreator/jackmod/item/OakScrapItem.java"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "OakPlanks",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/oak_planks.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Spruceplanks",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruceplanks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/spruce_planks.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "BirchPlanks",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/birch_planks.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "JunglePlanks",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/jungle_planks.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "DarkOakPlanks",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/dark_oak_planks.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "AcaciaPlanks",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/acacia_planks.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "MangrovePlanks",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/mangrove_planks.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "CherryPlanks",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/cherry_planks.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "WoodenHammer",
+      "type": "item",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/WoodenHammerItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/wooden_hammer.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "OakPlankBluePrintBlockAdded",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_plank_blue_print_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/OakPlankBluePrintBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "OakPlankBluePrint",
+      "type": "block",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_plank_blue_print",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/oak_plank_blue_print.json",
+          "src/main/resources/assets/jacksautismembodied/blockstates/oak_plank_blue_print.json",
+          "src/main/resources/assets/jacksautismembodied/models/block/oak_plank_blue_print.json",
+          "src/main/java/net/mcreator/jackmod/block/OakPlankBluePrintBlock.java",
+          "src/main/java/net/mcreator/jackmod/block/entity/OakPlankBluePrintBlockEntity.java"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Plank",
+      "type": "item",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/item/PlankItem.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/plank.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "OakPlankBluePrintOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_plank_blue_print_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/OakPlankBluePrintOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Lolz",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolz",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/lolz.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Plankers",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plankers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/plankers.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Hamma",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/hamma.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Stik",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stik",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/stik.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Stiker",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stiker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/stiker.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Stuck",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stuck",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/stuck.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "OakDoor",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/oak_door.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Doors",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doors",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/DoorsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "OakDoorBlueprint",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_door_blueprint",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/oak_door_blueprint.json",
+          "src/main/java/net/mcreator/jackmod/block/OakDoorBlueprintBlock.java",
+          "src/main/resources/assets/jacksautismembodied/blockstates/oak_door_blueprint.json",
+          "src/main/resources/assets/jacksautismembodied/models/block/oak_door_blueprint.json",
+          "src/main/java/net/mcreator/jackmod/block/entity/OakDoorBlueprintBlockEntity.java"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "OakDoorBlueprintOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_door_blueprint_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/OakDoorBlueprintOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "ODBP",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "odbp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/odbp.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Hinge",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hinge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/hinge.json",
+          "src/main/java/net/mcreator/jackmod/item/HingeItem.java"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Hingerec",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hingerec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/hingerec.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Torch",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/torch.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Cooker",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/cooker.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Cooker2",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooker_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/cooker_2.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Cooker3",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooker_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/cooker_3.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "Cooker4",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooker_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/cooker_4.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "BasicIngot",
+      "type": "item",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/basic_ingot.json",
+          "src/main/java/net/mcreator/jackmod/item/BasicIngotItem.java"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "IronIngot",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/iron_ingot.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "IronWorkingTableBlockAdded",
+      "type": "procedure",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_working_table_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/IronWorkingTableBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "IronSwordTip",
+      "type": "item",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sword_tip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/item/iron_sword_tip.json",
+          "src/main/java/net/mcreator/jackmod/item/IronSwordTipItem.java"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "IronWorkingTableOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_working_table_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/IronWorkingTableOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "IronWorkingTable",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_working_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/block/entity/IronWorkingTableBlockEntity.java",
+          "src/main/resources/assets/jacksautismembodied/models/item/iron_working_table.json",
+          "src/main/resources/assets/jacksautismembodied/blockstates/iron_working_table.json",
+          "src/main/java/net/mcreator/jackmod/block/IronWorkingTableBlock.java",
+          "src/main/resources/assets/jacksautismembodied/models/block/iron_working_table.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
+    },
+    {
+      "name": "IronworkingTableREC",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironworking_table_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/ironworking_table_rec.json"
+        ]
+      },
+      "path": "~/SURVIVALL"
     }
   ],
   "variable_elements": [
@@ -4055,6 +4786,12 @@
       "name": "didbloodcheck",
       "type": "number",
       "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "insanity",
+      "type": "number",
+      "scope": "player_persistent",
       "value": "0"
     }
   ],
@@ -4213,6 +4950,7 @@
       "subtitles.shoot": "RifleShoot",
       "advancements.no.title": "The road to nowhere",
       "block.jacksautismembodied.zfightblock": "Grass.",
+      "block.jacksautismembodied.iron_working_table": "Iron Working Table",
       "advancements.appendix_master.title": "Appendix Master",
       "item.jacksautismembodied.hate_trinket": "Hate Trinket",
       "item.jacksautismembodied.second_chance": "Second Chance",
@@ -4230,6 +4968,7 @@
       "item.minecraft.lingering_potion.effect.bottle_of_piss": "Lingering Potion of Piss",
       "item.jacksautismembodied.rib": "Rib",
       "item.jacksautismembodied.banana_man": "Banana Man",
+      "block.jacksautismembodied.manequin": "Manequin",
       "item.minecraft.tipped_arrow.effect.bottle_of_piss": "Arrow of Piss",
       "item.jacksautismembodied.cobalt_armour_chestplate": "Cobalt Chestplate",
       "item.jacksautismembodied.watcher_spawn_egg": "Watcher Spawn Egg",
@@ -4238,6 +4977,7 @@
       "item.minecraft.potion.effect.bottle_of_piss": "Potion of Piss",
       "item.jacksautismembodied.cocaine": "Cocaine",
       "item.minecraft.potion.effect.pepsi": "Pepsi brew",
+      "item.jacksautismembodied.plank": "Plank",
       "item.minecraft.tipped_arrow.effect.pepsi": "Arrow of Pepsi brew",
       "block.jacksautismembodied.etched_sandstone": "Etched Sandstone",
       "item.jacksautismembodied.dream_sweet_in_c_major": "Dream Sweet In C Major",
@@ -4247,7 +4987,9 @@
       "advancements.pure_magic.title": "Pure Magic!",
       "item.minecraft.tipped_arrow.effect.the_best_potion": "Arrow of The Best Potion",
       "item.jacksautismembodied.iron_knife": "Iron Knife",
+      "block.jacksautismembodied.oak_plank_blue_print": "Oak Plank BluePrint",
       "effect.jacksautismembodied.bleeding": "Bleeding",
+      "item.jacksautismembodied.wooden_hammer": "Wooden Hammer",
       "advancements.fifty_million.title": "Fifty Million calories",
       "subtitles.kevins": "kevins idle",
       "item.jacksautismembodied.unfiltered_bottle_of_piss": "Unfiltered Bottle Of Piss",
@@ -4257,6 +4999,7 @@
       "subtitles.tools.thiccbat.hit": "Thicc Bat Hits",
       "subtitles.banana": "Banana man",
       "item.jacksautismembodied.rifle": "Rifle",
+      "block.jacksautismembodied.oak_door_blueprint": "Oak door Blueprint",
       "block.jacksautismembodied.good_grave": "Good Grave",
       "item.jackmod.purepiss": "PUREPISS",
       "advancements.appendix_master.descr": "He died of Appendixitis",
@@ -4309,6 +5052,7 @@
       "item.jacksautismembodied.purepiss": "PUREPISS",
       "item.jacksautismembodied.key": "Key",
       "item.minecraft.lingering_potion.effect.pepsi": "Lingering Potion of Pepsi brew",
+      "item.jacksautismembodied.iron_sword_tip": "Iron Sword Tip",
       "item.jacksautismembodied.cooked_goldenbug": "Cooked coin bug",
       "advancements.pure_magic.descr": "summon experience orbs",
       "item.jacksautismembodied.sperm_boss_spawn_egg": "Sperm Boss Spawn Egg",
@@ -4316,6 +5060,7 @@
       "biome.jacksautismembodied.mountains": "Mountains",
       "item.jacksautismembodied.obsidian_knifes": "Obsidian Knife",
       "item.jacksautismembodied.gilded_bat": "Gilded Bat",
+      "item.jacksautismembodied.basic_ingot": "Basic Ingot",
       "item.jacksautismembodied.beef_cube": "Beef Cube",
       "item.jacksautismembodied.uno_reverse": "Uno Reverse",
       "item.jacksautismembodied.piss_baby_spawn_egg": "Piss Baby Spawn Egg",
@@ -4323,6 +5068,7 @@
       "item.jacksautismembodied.cooked": "Beef Cube",
       "item.jacksautismembodied.cobalt_ingot": "Cobalt Ingot",
       "entity.jacksautismembodied.human": "Human",
+      "item.jacksautismembodied.oak_scrap": "Oak Scrap",
       "effect.jacksautismembodied.gay": "Gay",
       "block.jacksautismembodied.goofy_offering": "Goofy Offering",
       "item.jacksautismembodied.kreem": "Kreem",
@@ -4337,6 +5083,7 @@
       "item.jacksautismembodied.diamond_knife": "Diamond Knife",
       "item_group.jacksautismembodied.rubbish": "Rubbish",
       "item.jacksautismembodied.rubber_duck_spawn_egg": "Rubber Duck Spawn Egg",
+      "item.jacksautismembodied.hinge": "Hinge",
       "item.jacksautismembodied.heart": "Heart",
       "block.jacksautismembodied.cobalt_block": "Cobalt Block",
       "item.jacksautismembodied.real_diamond": "Diamond",
@@ -4413,6 +5160,10 @@
       },
       {
         "name": "randomshat",
+        "children": []
+      },
+      {
+        "name": "SURVIVALL",
         "children": []
       }
     ]

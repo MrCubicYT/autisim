@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "jacksautismembodied:item/knowledge_book"
+  },
+  "render_type": "translucent"
+}

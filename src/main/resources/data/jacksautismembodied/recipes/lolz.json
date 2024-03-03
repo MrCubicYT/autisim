@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "jacksautismembodied:oak_scrap"
+    },
+    {
+      "item": "jacksautismembodied:oak_scrap"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "jacksautismembodied:oak_plank_blue_print",
+    "count": 1
+  }
+}

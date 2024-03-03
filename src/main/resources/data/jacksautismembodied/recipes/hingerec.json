@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 ",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "jacksautismembodied:plank"
+    },
+    "2": {
+      "item": "jacksautismembodied:oak_scrap"
+    },
+    "3": {
+      "item": "jacksautismembodied:plank"
+    },
+    "4": {
+      "item": "jacksautismembodied:plank"
+    }
+  },
+  "result": {
+    "item": "jacksautismembodied:hinge",
+    "count": 1
+  }
+}

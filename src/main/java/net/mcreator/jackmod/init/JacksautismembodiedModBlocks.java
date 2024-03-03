@@ -21,7 +21,11 @@ import net.mcreator.jackmod.block.StonePathBlock;
 import net.mcreator.jackmod.block.SpruceCrateBlock;
 import net.mcreator.jackmod.block.SpringPadBlock;
 import net.mcreator.jackmod.block.RoseBlock;
+import net.mcreator.jackmod.block.OakPlankBluePrintBlock;
+import net.mcreator.jackmod.block.OakDoorBlueprintBlock;
 import net.mcreator.jackmod.block.NILLBlock;
+import net.mcreator.jackmod.block.ManequinBlock;
+import net.mcreator.jackmod.block.IronWorkingTableBlock;
 import net.mcreator.jackmod.block.GoofyOfferingBlock;
 import net.mcreator.jackmod.block.GoodGraveBlock;
 import net.mcreator.jackmod.block.EtchedSandstoneBlock;
@@ -46,6 +50,10 @@ public class JacksautismembodiedModBlocks {
 	public static final RegistryObject<Block> SPRUCE_CRATE = REGISTRY.register("spruce_crate", () -> new SpruceCrateBlock());
 	public static final RegistryObject<Block> COBALT_ORE = REGISTRY.register("cobalt_ore", () -> new CobaltOreBlock());
 	public static final RegistryObject<Block> COBALT_BLOCK = REGISTRY.register("cobalt_block", () -> new CobaltBlockBlock());
+	public static final RegistryObject<Block> MANEQUIN = REGISTRY.register("manequin", () -> new ManequinBlock());
+	public static final RegistryObject<Block> OAK_PLANK_BLUE_PRINT = REGISTRY.register("oak_plank_blue_print", () -> new OakPlankBluePrintBlock());
+	public static final RegistryObject<Block> OAK_DOOR_BLUEPRINT = REGISTRY.register("oak_door_blueprint", () -> new OakDoorBlueprintBlock());
+	public static final RegistryObject<Block> IRON_WORKING_TABLE = REGISTRY.register("iron_working_table", () -> new IronWorkingTableBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

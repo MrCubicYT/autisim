@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jacksautismembodied:block/blueprint",
+    "up": "jacksautismembodied:block/blueprint",
+    "north": "jacksautismembodied:block/blueprint",
+    "east": "jacksautismembodied:block/blueprint",
+    "south": "jacksautismembodied:block/blueprint",
+    "west": "jacksautismembodied:block/blueprint",
+    "particle": "jacksautismembodied:block/blueprint"
+  },
+  "render_type": "translucent"
+}

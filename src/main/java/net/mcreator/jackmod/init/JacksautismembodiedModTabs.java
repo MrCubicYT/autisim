@@ -25,6 +25,16 @@ public class JacksautismembodiedModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.jacksautismembodied.rubbish")).icon(() -> new ItemStack(JacksautismembodiedModItems.EMPTY_WHISKEY_BOTTLE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(JacksautismembodiedModItems.EMPTY_WHISKEY_BOTTLE.get());
 				tabData.accept(JacksautismembodiedModItems.WHISKEY.get());
+				tabData.accept(JacksautismembodiedModBlocks.MANEQUIN.get().asItem());
+				tabData.accept(JacksautismembodiedModItems.OAK_SCRAP.get());
+				tabData.accept(JacksautismembodiedModItems.WOODEN_HAMMER.get());
+				tabData.accept(JacksautismembodiedModBlocks.OAK_PLANK_BLUE_PRINT.get().asItem());
+				tabData.accept(JacksautismembodiedModItems.PLANK.get());
+				tabData.accept(JacksautismembodiedModBlocks.OAK_DOOR_BLUEPRINT.get().asItem());
+				tabData.accept(JacksautismembodiedModItems.HINGE.get());
+				tabData.accept(JacksautismembodiedModItems.BASIC_INGOT.get());
+				tabData.accept(JacksautismembodiedModItems.IRON_SWORD_TIP.get());
+				tabData.accept(JacksautismembodiedModBlocks.IRON_WORKING_TABLE.get().asItem());
 			})
 
 					.build());
