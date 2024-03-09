@@ -18,6 +18,8 @@ import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.jackmod.JacksautismembodiedMod;
+
 import java.util.function.Supplier;
 
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
