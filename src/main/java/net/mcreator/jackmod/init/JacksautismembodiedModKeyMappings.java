@@ -15,9 +15,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
-import net.mcreator.jackmod.network.GMessage;
-import net.mcreator.jackmod.JacksautismembodiedMod;
-
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class JacksautismembodiedModKeyMappings {
 	public static final KeyMapping G = new KeyMapping("key.jacksautismembodied.g", GLFW.GLFW_KEY_G, "key.categories.misc") {

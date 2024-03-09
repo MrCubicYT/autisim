@@ -6,10 +6,6 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.mcreator.jackmod.init.JacksautismembodiedModBlockEntities;
-import net.mcreator.jackmod.block.renderer.SpringPadTileRenderer;
-import net.mcreator.jackmod.JacksautismembodiedMod;
-
 @Mod.EventBusSubscriber(modid = JacksautismembodiedMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ClientListener {
 	@OnlyIn(Dist.CLIENT)

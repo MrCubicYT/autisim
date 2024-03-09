@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jacksautismembodied:block/rotten",
+    "up": "jacksautismembodied:block/rotten",
+    "north": "jacksautismembodied:block/rotten",
+    "east": "jacksautismembodied:block/rotten",
+    "south": "jacksautismembodied:block/rotten",
+    "west": "jacksautismembodied:block/rotten",
+    "particle": "jacksautismembodied:block/rotten"
+  },
+  "render_type": "solid"
+}

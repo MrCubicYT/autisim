@@ -16,8 +16,6 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.jackmod.JacksautismembodiedMod;
-
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class JacksautismembodiedModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JacksautismembodiedMod.MODID);
@@ -26,15 +24,6 @@ public class JacksautismembodiedModTabs {
 				tabData.accept(JacksautismembodiedModItems.EMPTY_WHISKEY_BOTTLE.get());
 				tabData.accept(JacksautismembodiedModItems.WHISKEY.get());
 				tabData.accept(JacksautismembodiedModBlocks.MANEQUIN.get().asItem());
-				tabData.accept(JacksautismembodiedModItems.OAK_SCRAP.get());
-				tabData.accept(JacksautismembodiedModItems.WOODEN_HAMMER.get());
-				tabData.accept(JacksautismembodiedModBlocks.OAK_PLANK_BLUE_PRINT.get().asItem());
-				tabData.accept(JacksautismembodiedModItems.PLANK.get());
-				tabData.accept(JacksautismembodiedModBlocks.OAK_DOOR_BLUEPRINT.get().asItem());
-				tabData.accept(JacksautismembodiedModItems.HINGE.get());
-				tabData.accept(JacksautismembodiedModItems.BASIC_INGOT.get());
-				tabData.accept(JacksautismembodiedModItems.IRON_SWORD_TIP.get());
-				tabData.accept(JacksautismembodiedModBlocks.IRON_WORKING_TABLE.get().asItem());
 			})
 
 					.build());
