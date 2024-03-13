@@ -14,6 +14,7 @@ import net.mcreator.jackmod.potion.ViolentDiarrhoeaMobEffect;
 import net.mcreator.jackmod.potion.TheBestPotionEffectMobEffect;
 import net.mcreator.jackmod.potion.ObesityMobEffect;
 import net.mcreator.jackmod.potion.GayMobEffect;
+import net.mcreator.jackmod.potion.FemMobEffect;
 import net.mcreator.jackmod.potion.DrunkMobEffect;
 import net.mcreator.jackmod.potion.DepressedMobEffect;
 import net.mcreator.jackmod.potion.DeadlyDiarrhoeaMobEffect;
@@ -30,4 +31,5 @@ public class JacksautismembodiedModMobEffects {
 	public static final RegistryObject<MobEffect> DEADLY_DIARRHOEA = REGISTRY.register("deadly_diarrhoea", () -> new DeadlyDiarrhoeaMobEffect());
 	public static final RegistryObject<MobEffect> THE_BEST_POTION_EFFECT = REGISTRY.register("the_best_potion_effect", () -> new TheBestPotionEffectMobEffect());
 	public static final RegistryObject<MobEffect> DRUNK = REGISTRY.register("drunk", () -> new DrunkMobEffect());
+	public static final RegistryObject<MobEffect> FEM = REGISTRY.register("fem", () -> new FemMobEffect());
 }

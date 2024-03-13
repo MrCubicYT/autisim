@@ -26,6 +26,7 @@ public class JacksautismembodiedModTabs {
 				tabData.accept(JacksautismembodiedModItems.EMPTY_WHISKEY_BOTTLE.get());
 				tabData.accept(JacksautismembodiedModItems.WHISKEY.get());
 				tabData.accept(JacksautismembodiedModBlocks.MANEQUIN.get().asItem());
+				tabData.accept(JacksautismembodiedModBlocks.FEMBOMB.get().asItem());
 			})
 
 					.build());

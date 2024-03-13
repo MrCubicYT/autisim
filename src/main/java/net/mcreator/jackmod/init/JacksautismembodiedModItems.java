@@ -133,6 +133,7 @@ public class JacksautismembodiedModItems {
 	public static final RegistryObject<Item> EMPTY_WHISKEY_BOTTLE = REGISTRY.register("empty_whiskey_bottle", () -> new EmptyWhiskeyBottleItem());
 	public static final RegistryObject<Item> WHISKEY = REGISTRY.register("whiskey", () -> new WhiskeyItem());
 	public static final RegistryObject<Item> MANEQUIN = block(JacksautismembodiedModBlocks.MANEQUIN);
+	public static final RegistryObject<Item> FEMBOMB = block(JacksautismembodiedModBlocks.FEMBOMB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

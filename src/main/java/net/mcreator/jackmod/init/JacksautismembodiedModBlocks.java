@@ -25,6 +25,7 @@ import net.mcreator.jackmod.block.NILLBlock;
 import net.mcreator.jackmod.block.ManequinBlock;
 import net.mcreator.jackmod.block.GoofyOfferingBlock;
 import net.mcreator.jackmod.block.GoodGraveBlock;
+import net.mcreator.jackmod.block.FembombBlock;
 import net.mcreator.jackmod.block.EtchedSandstoneBlock;
 import net.mcreator.jackmod.block.CobaltOreBlock;
 import net.mcreator.jackmod.block.CobaltBlockBlock;
@@ -48,6 +49,7 @@ public class JacksautismembodiedModBlocks {
 	public static final RegistryObject<Block> COBALT_ORE = REGISTRY.register("cobalt_ore", () -> new CobaltOreBlock());
 	public static final RegistryObject<Block> COBALT_BLOCK = REGISTRY.register("cobalt_block", () -> new CobaltBlockBlock());
 	public static final RegistryObject<Block> MANEQUIN = REGISTRY.register("manequin", () -> new ManequinBlock());
+	public static final RegistryObject<Block> FEMBOMB = REGISTRY.register("fembomb", () -> new FembombBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

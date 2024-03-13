@@ -4011,6 +4011,111 @@
           "src/main/java/net/mcreator/jackmod/block/ManequinBlock.java"
         ]
       }
+    },
+    {
+      "name": "FemEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fem_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/FemEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "FemEffectExpires",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fem_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/FemEffectExpiresProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Fem",
+      "type": "potioneffect",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/potion/FemMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "FembombOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fembomb_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jackmod/procedures/FembombOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fembomb",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fembomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jacksautismembodied/models/block/fembomb.json",
+          "src/main/java/net/mcreator/jackmod/block/FembombBlock.java",
+          "src/main/resources/assets/jacksautismembodied/blockstates/fembomb.json",
+          "src/main/resources/assets/jacksautismembodied/models/item/fembomb.json"
+        ]
+      }
+    },
+    {
+      "name": "Femrec",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jacksautismembodied/recipes/femrec.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4250,27 +4355,28 @@
     "en_us": {
       "effect.jacksautismembodied.the_best_potion_effect": "its the best potion effect trust me",
       "entity.jacksautismembodied.kevins": "Kevins",
-      "block.jacksautismembodied.cobalt_ore": "Cobalt Ore",
-      "block.jacksautismembodied.rose": "Rose",
       "biome.jacksautismembodied.fields": "Fields",
+      "block.jacksautismembodied.rose": "Rose",
+      "block.jacksautismembodied.cobalt_ore": "Cobalt Ore",
       "item.jacksautismembodied.christmas": "Health Pickup",
       "item.jacksautismembodied.intestine": "Intestine",
-      "item.jacksautismembodied.jack_costume_helmet": "Jack Fursuit Helmet",
-      "block.jacksautismembodied.spruce_crate": "Spruce Crate",
       "item.jacksautismembodied.flesh_ball_spawn_egg": "Flesh Ball Spawn Egg",
-      "block.jackmod.bad_grave": "Bad Grave",
+      "block.jacksautismembodied.spruce_crate": "Spruce Crate",
+      "item.jacksautismembodied.jack_costume_helmet": "Jack Fursuit Helmet",
       "advancements.dinner_is_served.descr": "Cook a beef cube",
+      "block.jackmod.bad_grave": "Bad Grave",
       "death.attack.dieo": "%s Shat themselves",
       "death.attack.style": "%s was styled on to hard.",
       "item.jacksautismembodied.wooden_knife": "Wooden Knife",
       "subtitles.shoot": "RifleShoot",
-      "block.jacksautismembodied.zfightblock": "Grass.",
       "advancements.no.title": "The road to nowhere",
+      "block.jacksautismembodied.zfightblock": "Grass.",
       "advancements.appendix_master.title": "Appendix Master",
-      "item.jacksautismembodied.hate_trinket": "Hate Trinket",
       "item.jacksautismembodied.second_chance": "Second Chance",
+      "item.jacksautismembodied.hate_trinket": "Hate Trinket",
       "subtitles.pee": "Piss baby really needs to piss",
       "entity.jacksautismembodied.flesh_ball": "Flesh Ball",
+      "effect.jacksautismembodied.fem": "femboy",
       "subtitles.ded": "Piss baby dies",
       "advancements.blud_forgot_to_return_the_slab.title": "Blud Forgot To Return The Slab",
       "item.jacksautismembodied.spine": "Spine",
@@ -4382,6 +4488,7 @@
       "item.jacksautismembodied.kreem": "Kreem",
       "item.jacksautismembodied.bigbat": "Thicc Bat",
       "block.jacksautismembodied.stone_path": "Stone Path",
+      "block.jacksautismembodied.fembomb": "Fembomb",
       "item.jacksautismembodied.dream_sweet_in_c_major.desc": "Dream sweet in C major - Tally hall",
       "key.jacksautismembodied.g": "G",
       "item.jacksautismembodied.spleen": "Spleen",
